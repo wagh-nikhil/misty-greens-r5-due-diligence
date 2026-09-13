@@ -3,73 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plot R5-180 Due Diligence, Construction & Valuation Portal | Misty Greens Phase 3B</title>
-  <meta name="description" content="Comprehensive Real Estate Due Diligence, 100% Vastu Architectural Plan, PMRDA Setbacks, 7/12 Land Records, Valuation, and Construction Cost Estimation for Plot R5-180, Kaleidoscope Misty Greens Phase 3B, Bhugaon, Pune.">
+  <title>Plot R5-180 Executive Portal | Misty Greens Phase 3B (P52100080947)</title>
+  <meta name="description" content="Official Due Diligence, 100% Vastu Architectural Blueprint, PMRDA Setbacks, 7/12 Land Records, Valuation, and Turnkey Construction Cost Estimation for Plot R5-180, Kaleidoscope Misty Greens Phase 3B, Bhugaon, Pune.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --primary: #0f766e;
       --primary-dark: #115e59;
-      --primary-light: #ccfbf1;
-      --accent: #f59e0b;
-      --accent-dark: #d97706;
-      --navy: #0f172a;
+      --primary-light: #f0fdfa;
+      --primary-border: #99f6e4;
+      --accent: #d97706;
+      --accent-light: #fef3c7;
+      --navy: #090d16;
+      --navy-card: #0f172a;
       --slate-dark: #1e293b;
       --slate-mid: #475569;
       --slate-light: #64748b;
-      --border: #e2e8f0;
-      --card-bg: #ffffff;
-      --bg: #f8fafc;
-      --success: #16a34a;
-      --danger: #dc2626;
-      --radius-lg: 16px;
-      --radius-md: 12px;
-      --radius-sm: 8px;
-      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
-      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
-      --shadow-lg: 0 12px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.04);
-      --shadow-xl: 0 20px 30px -6px rgba(15, 23, 42, 0.12);
+      --slate-border: #cbd5e1;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --success: #15803d;
+      --success-light: #dcfce7;
+      --blue: #1d4ed8;
+      --blue-light: #dbeafe;
+      --purple: #6d28d9;
+      --purple-light: #ede9fe;
+      --radius-xl: 20px;
+      --radius-lg: 14px;
+      --radius-md: 10px;
+      --radius-sm: 6px;
+      --shadow-subtle: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.03);
+      --shadow-card: 0 4px 12px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+      --shadow-hover: 0 16px 32px -6px rgba(15, 23, 42, 0.12), 0 6px 12px -2px rgba(15, 23, 42, 0.06);
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background-color: var(--bg);
+      background-color: var(--bg-page);
       color: var(--slate-dark);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
 
-    a {
-      color: var(--primary);
-      text-decoration: none;
-      transition: all 0.2s ease;
-    }
-
-    a:hover {
-      color: var(--primary-dark);
-    }
-
-    /* Top Nav */
+    /* Top Sticky Navigation */
     .navbar {
-      background: rgba(15, 23, 42, 0.95);
-      backdrop-filter: blur(12px);
+      background: rgba(9, 13, 22, 0.94);
+      backdrop-filter: blur(14px);
       color: white;
       padding: 14px 24px;
       position: sticky;
       top: 0;
-      z-index: 100;
+      z-index: 1000;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     .nav-container {
-      max-width: 1240px;
+      max-width: 1280px;
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -87,284 +79,501 @@
       letter-spacing: -0.5px;
       color: #ffffff;
     }
-    .nav-brand-badge {
+    .nav-badge-phase {
       background: linear-gradient(135deg, #0d9488, #047857);
       color: white;
       font-size: 0.72rem;
       padding: 3px 8px;
       border-radius: 6px;
-      font-weight: 600;
+      font-weight: 700;
       letter-spacing: 0.5px;
       text-transform: uppercase;
     }
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      font-size: 0.88rem;
-    }
-    .nav-links a {
-      color: #94a3b8;
-      font-weight: 500;
-    }
-    .nav-links a:hover {
-      color: #ffffff;
-    }
-    .nav-badge-rera {
+    .nav-rera {
       background: rgba(245, 158, 11, 0.15);
-      border: 1px solid rgba(245, 158, 11, 0.4);
+      border: 1px solid rgba(245, 158, 11, 0.35);
       color: #fbbf24;
       padding: 4px 10px;
       border-radius: 9999px;
       font-size: 0.78rem;
       font-weight: 600;
     }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 0.88rem;
+    }
+    .nav-links a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #ffffff; }
+    .nav-links a.active { color: #5eead4; font-weight: 600; }
 
     /* Hero Section */
     .hero {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f766e 100%);
+      background: linear-gradient(135deg, #090d16 0%, #0f172a 45%, #0f766e 100%);
       color: white;
-      padding: 60px 24px 80px;
+      padding: 56px 24px 72px;
       position: relative;
       overflow: hidden;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
     .hero::before {
       content: '';
       position: absolute;
-      top: -100px;
+      top: -120px;
       right: -100px;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(13, 148, 136, 0.25) 0%, transparent 70%);
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(13, 148, 136, 0.28) 0%, transparent 70%);
       pointer-events: none;
     }
     .hero-container {
-      max-width: 1240px;
+      max-width: 1280px;
       margin: 0 auto;
       position: relative;
-      z-index: 1;
+      z-index: 2;
     }
-    .hero-tag {
+    .hero-pill-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .hero-pill {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 6px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 5px 12px;
       border-radius: 9999px;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       font-weight: 600;
       color: #5eead4;
-      margin-bottom: 20px;
       backdrop-filter: blur(8px);
+    }
+    .hero-pill.gold {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: rgba(245, 158, 11, 0.35);
+      color: #fde68a;
     }
     .hero-title {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 2.8rem;
+      font-size: 2.85rem;
       font-weight: 700;
       line-height: 1.15;
-      letter-spacing: -1px;
+      letter-spacing: -1.2px;
       margin-bottom: 16px;
       color: #ffffff;
     }
     .hero-subtitle {
       font-size: 1.15rem;
       color: #cbd5e1;
-      max-width: 820px;
+      max-width: 860px;
       margin-bottom: 36px;
-      font-weight: 400;
+      line-height: 1.6;
     }
 
-    /* Key Stat Pill Grid */
-    .stat-grid {
+    /* Key Stats Grid */
+    .stat-strip {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin-top: 24px;
+      gap: 14px;
+      margin-top: 16px;
     }
-    .stat-card {
+    .stat-box {
       background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: var(--radius-md);
-      padding: 18px 20px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius-lg);
+      padding: 16px 18px;
       backdrop-filter: blur(10px);
-      transition: transform 0.2s, background 0.2s;
+      transition: all 0.2s ease;
     }
-    .stat-card:hover {
+    .stat-box:hover {
       background: rgba(255, 255, 255, 0.12);
       transform: translateY(-2px);
     }
-    .stat-label {
-      font-size: 0.76rem;
+    .stat-box-label {
+      font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 0.8px;
       color: #94a3b8;
-      margin-bottom: 6px;
-      font-weight: 600;
+      font-weight: 700;
+      margin-bottom: 4px;
     }
-    .stat-value {
+    .stat-box-value {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.45rem;
+      font-size: 1.4rem;
       font-weight: 700;
       color: #ffffff;
     }
-    .stat-sub {
+    .stat-box-sub {
       font-size: 0.78rem;
       color: #5eead4;
-      margin-top: 4px;
+      margin-top: 3px;
     }
 
     /* Main Container */
     .main-content {
-      max-width: 1240px;
-      margin: -40px auto 60px;
-      padding: 0 24px;
-      position: relative;
-      z-index: 10;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
     }
 
-    /* Section Headers */
-    .section-header {
-      margin: 48px 0 24px;
+    /* Section Component */
+    .section-wrapper {
+      margin-top: 48px;
+    }
+    .section-head {
+      margin-bottom: 24px;
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 16px;
+      gap: 12px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
     }
     .section-title {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.75rem;
+      font-size: 1.65rem;
       font-weight: 700;
       color: var(--navy);
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
+      letter-spacing: -0.5px;
     }
-    .section-desc {
+    .section-sub {
       color: var(--slate-mid);
-      font-size: 0.95rem;
-      margin-top: 4px;
+      font-size: 0.92rem;
     }
 
-    /* Core Reports Cards Grid */
-    .reports-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 24px;
+    /* Executive Major Points Summary Box */
+    .summary-dashboard {
+      background: white;
+      border: 1px solid var(--slate-border);
+      border-radius: var(--radius-xl);
+      padding: 32px;
+      box-shadow: var(--shadow-card);
+      margin-top: -36px;
+      position: relative;
+      z-index: 10;
     }
-    .report-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
+    .summary-top-tag {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .summary-heading {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+    .summary-item {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid var(--primary);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      transition: all 0.2s;
+    }
+    .summary-item:hover {
+      background: #ffffff;
+      box-shadow: var(--shadow-subtle);
+      transform: translateY(-2px);
+    }
+    .summary-item.blue { border-left-color: var(--blue); }
+    .summary-item.amber { border-left-color: var(--accent); }
+    .summary-item.purple { border-left-color: var(--purple); }
+    .summary-item.green { border-left-color: var(--success); }
+
+    .summary-item-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--navy);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .summary-item-desc {
+      font-size: 0.86rem;
+      color: var(--slate-mid);
+      line-height: 1.5;
+    }
+    .summary-item-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      margin-left: auto;
+      text-transform: uppercase;
+    }
+    .badge-pass { background: #dcfce7; color: #166534; }
+    .badge-note { background: #fef3c7; color: #92400e; }
+    .badge-clear { background: #dbeafe; color: #1e40af; }
+
+    /* Layout Showcase Showcase */
+    .layout-showcase-card {
+      background: white;
+      border: 1px solid var(--slate-border);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+    .layout-nav-tabs {
+      display: flex;
+      align-items: center;
+      background: #0f172a;
+      padding: 10px 16px 0;
+      gap: 6px;
+      overflow-x: auto;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .layout-tab {
+      padding: 10px 18px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #94a3b8;
+      background: transparent;
+      border: none;
+      border-radius: 8px 8px 0 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .layout-tab:hover { color: white; background: rgba(255, 255, 255, 0.06); }
+    .layout-tab.active {
+      color: #0f766e;
+      background: #ffffff;
+      font-weight: 700;
+    }
+    .layout-display-panel {
+      padding: 24px;
+      background: #ffffff;
+      display: none;
+    }
+    .layout-display-panel.active { display: block; }
+    .layout-panel-body {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .layout-img-container {
+      background: #090d16;
       border-radius: var(--radius-lg);
-      padding: 28px;
-      box-shadow: var(--shadow-md);
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      position: relative;
+      box-shadow: var(--shadow-subtle);
+    }
+    .layout-img-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+      cursor: zoom-in;
+    }
+    .layout-img-container img:hover {
+      transform: scale(1.02);
+    }
+    .layout-overlay-hint {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(15, 23, 42, 0.8);
+      color: white;
+      font-size: 0.72rem;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      pointer-events: none;
+      backdrop-filter: blur(4px);
+    }
+    .layout-panel-info {
       display: flex;
       flex-direction: column;
+      gap: 16px;
+    }
+    .layout-info-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .layout-info-desc {
+      font-size: 0.9rem;
+      color: var(--slate-mid);
+      line-height: 1.6;
+    }
+    .callout-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .callout-list li {
+      font-size: 0.86rem;
+      color: var(--slate-dark);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background: #f8fafc;
+      padding: 10px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid #e2e8f0;
+    }
+    .callout-list li strong { color: var(--navy); }
+    .callout-bullet {
+      background: var(--primary-light);
+      color: var(--primary);
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* Reports Directory Cards */
+    .reports-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .report-strip-card {
+      background: white;
+      border: 1px solid var(--slate-border);
+      border-radius: var(--radius-xl);
+      padding: 24px 28px;
+      box-shadow: var(--shadow-card);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      display: grid;
+      grid-template-columns: 80px 1fr 240px;
+      gap: 24px;
+      align-items: center;
       position: relative;
       overflow: hidden;
     }
-    .report-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-xl);
-      border-color: #0d9488;
+    .report-strip-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-hover);
+      border-color: var(--primary);
     }
-    .card-top-bar {
-      height: 4px;
+    .report-strip-card.featured {
+      border: 2px solid #0f766e;
+      background: linear-gradient(to right, #ffffff, #f0fdfa);
+    }
+    .featured-label {
       position: absolute;
       top: 0;
-      left: 0;
       right: 0;
-      background: linear-gradient(90deg, #0d9488, #0f766e);
-    }
-    .card-featured-badge {
-      position: absolute;
-      top: 16px;
-      right: 16px;
-      background: #fef3c7;
-      color: #92400e;
-      border: 1px solid #fde68a;
-      padding: 3px 10px;
-      border-radius: 9999px;
-      font-size: 0.72rem;
+      background: #0f766e;
+      color: white;
+      font-size: 0.7rem;
       font-weight: 700;
       text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 0 0 0 10px;
       letter-spacing: 0.5px;
     }
-    .card-icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 12px;
-      background: var(--primary-light);
-      color: var(--primary);
+    .report-icon-box {
+      width: 72px;
+      height: 72px;
+      border-radius: var(--radius-lg);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.5rem;
-      margin-bottom: 18px;
-    }
-    .card-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: var(--navy);
-      margin-bottom: 8px;
-      line-height: 1.3;
-    }
-    .card-summary {
-      font-size: 0.9rem;
-      color: var(--slate-mid);
-      margin-bottom: 20px;
-      flex-grow: 1;
-    }
-    .card-highlights {
+      font-size: 2rem;
       background: #f1f5f9;
-      border-radius: var(--radius-sm);
-      padding: 12px 14px;
-      margin-bottom: 22px;
-      font-size: 0.82rem;
-      color: var(--slate-dark);
+      color: var(--navy);
+      flex-shrink: 0;
     }
-    .card-highlights ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    .card-highlights li {
-      margin-bottom: 6px;
-      display: flex;
-      align-items: flex-start;
-      gap: 6px;
-    }
-    .card-highlights li:last-child {
-      margin-bottom: 0;
-    }
-    .card-highlights li::before {
-      content: '✓';
-      color: var(--primary);
-      font-weight: 700;
-    }
+    .icon-blue { background: #eff6ff; color: #1d4ed8; }
+    .icon-teal { background: #f0fdfa; color: #0f766e; }
+    .icon-green { background: #f0fdf4; color: #15803d; }
+    .icon-amber { background: #fefce8; color: #b45309; }
+    .icon-emerald { background: #ecfdf5; color: #047857; }
 
-    /* Card Action Buttons */
-    .card-actions {
+    .report-main-info {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 6px;
     }
-    .btn-row {
+    .report-badge-order {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+    .report-heading {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.25;
+    }
+    .report-desc {
+      font-size: 0.88rem;
+      color: var(--slate-mid);
+      line-height: 1.5;
+    }
+    .report-pills {
       display: flex;
-      gap: 10px;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .report-pill-item {
+      font-size: 0.74rem;
+      background: #f1f5f9;
+      color: var(--slate-dark);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .report-cta-col {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 220px;
     }
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
-      padding: 10px 16px;
+      padding: 10px 14px;
       border-radius: var(--radius-md);
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       font-weight: 600;
       cursor: pointer;
+      text-decoration: none;
       transition: all 0.2s ease;
       border: 1px solid transparent;
       text-align: center;
@@ -372,156 +581,99 @@
     .btn-primary {
       background: var(--primary);
       color: white;
-      flex: 1;
     }
     .btn-primary:hover {
       background: var(--primary-dark);
       color: white;
-      box-shadow: 0 4px 12px rgba(15, 118, 110, 0.3);
+      box-shadow: 0 4px 10px rgba(15, 118, 110, 0.25);
     }
     .btn-secondary {
       background: #f8fafc;
-      border: 1px solid #cbd5e1;
+      border-color: var(--slate-border);
       color: var(--slate-dark);
-      flex: 1;
     }
     .btn-secondary:hover {
       background: #e2e8f0;
       border-color: #94a3b8;
     }
-    .btn-preview {
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      color: #15803d;
-      width: 100%;
-      font-size: 0.82rem;
-      padding: 8px 12px;
+    .btn-ghost {
+      background: transparent;
+      color: var(--primary);
+      font-size: 0.8rem;
+      padding: 6px 10px;
     }
-    .btn-preview:hover {
-      background: #dcfce7;
-      color: #166534;
+    .btn-ghost:hover {
+      background: var(--primary-light);
     }
 
-    /* Statutory Document Table */
-    .statutory-card {
+    /* Statutory Documents Table */
+    .docs-container {
       background: white;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
+      border: 1px solid var(--slate-border);
+      border-radius: var(--radius-xl);
       padding: 24px;
-      box-shadow: var(--shadow-sm);
+      box-shadow: var(--shadow-card);
       overflow-x: auto;
     }
     .docs-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.88rem;
-      text-align: left;
+      font-size: 0.86rem;
     }
     .docs-table th {
       background: #f8fafc;
-      color: var(--slate-mid);
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 0.74rem;
-      letter-spacing: 0.6px;
       padding: 12px 16px;
-      border-bottom: 2px solid var(--border);
+      text-align: left;
+      font-size: 0.74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--slate-mid);
+      border-bottom: 2px solid #e2e8f0;
     }
     .docs-table td {
       padding: 14px 16px;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid #e2e8f0;
       vertical-align: middle;
     }
-    .docs-table tr:hover td {
-      background: #f8fafc;
-    }
-    .doc-type-badge {
+    .docs-table tr:hover td { background: #f8fafc; }
+    .doc-badge {
       display: inline-block;
-      padding: 2px 8px;
+      padding: 3px 8px;
       border-radius: 4px;
-      font-size: 0.72rem;
-      font-weight: 600;
+      font-size: 0.7rem;
+      font-weight: 700;
       text-transform: uppercase;
     }
-    .badge-rera { background: #e0f2fe; color: #0369a1; }
-    .badge-pmrda { background: #fef3c7; color: #92400e; }
-    .badge-revenue { background: #dcfce7; color: #15803d; }
-    .badge-legal { background: #f3e8ff; color: #7e22ce; }
-
-    /* Map Showcase Box */
-    .showcase-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 24px;
-    }
-    .showcase-card {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      box-shadow: var(--shadow-md);
-    }
-    .showcase-img-wrap {
-      background: #0f172a;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      max-height: 240px;
-      overflow: hidden;
-    }
-    .showcase-img-wrap img {
-      width: 100%;
-      height: 240px;
-      object-fit: cover;
-      transition: transform 0.3s ease;
-    }
-    .showcase-img-wrap:hover img {
-      transform: scale(1.03);
-    }
-    .showcase-body {
-      padding: 20px;
-    }
-    .showcase-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.15rem;
-      font-weight: 700;
-      color: var(--navy);
-      margin-bottom: 6px;
-    }
-    .showcase-desc {
-      font-size: 0.85rem;
-      color: var(--slate-mid);
-      margin-bottom: 14px;
-    }
+    .doc-badge.pmrda { background: #fef3c7; color: #92400e; }
+    .doc-badge.title { background: #ede9fe; color: #5b21b6; }
+    .doc-badge.satbara { background: #dcfce7; color: #166534; }
+    .doc-badge.rera { background: #e0f2fe; color: #0369a1; }
+    .doc-badge.deed { background: #fee2e2; color: #991b1b; }
 
     /* Modal Viewer */
     .modal-overlay {
       display: none;
       position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(15, 23, 42, 0.85);
-      backdrop-filter: blur(6px);
-      z-index: 9999;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(9, 13, 22, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 99999;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+      padding: 20px;
     }
-    .modal-overlay.active {
-      display: flex;
-    }
+    .modal-overlay.active { display: flex; }
     .modal-content {
       background: white;
-      border-radius: var(--radius-lg);
+      border-radius: var(--radius-xl);
       width: 100%;
-      max-width: 1100px;
-      height: 90vh;
+      max-width: 1160px;
+      height: 92vh;
       display: flex;
       flex-direction: column;
       overflow: hidden;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     }
     .modal-header {
       padding: 16px 20px;
@@ -539,7 +691,7 @@
     .modal-actions {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
     }
     .modal-btn {
       background: rgba(255, 255, 255, 0.15);
@@ -550,22 +702,15 @@
       cursor: pointer;
       font-size: 0.8rem;
       font-weight: 600;
-      transition: background 0.2s;
     }
-    .modal-btn:hover {
-      background: rgba(255, 255, 255, 0.25);
-    }
+    .modal-btn:hover { background: rgba(255, 255, 255, 0.25); }
     .modal-body {
       flex: 1;
-      background: #334155;
-      overflow: hidden;
+      background: #1e293b;
       position: relative;
     }
-    .modal-body iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
+    .modal-body iframe { width: 100%; height: 100%; border: none; }
+    .modal-body img { width: 100%; height: 100%; object-fit: contain; }
 
     /* Footer */
     footer {
@@ -576,7 +721,7 @@
       font-size: 0.85rem;
     }
     .footer-container {
-      max-width: 1240px;
+      max-width: 1280px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -597,7 +742,7 @@
       color: white;
     }
     .footer-desc {
-      max-width: 500px;
+      max-width: 520px;
       margin-top: 6px;
       line-height: 1.5;
     }
@@ -609,29 +754,34 @@
       align-items: center;
     }
 
-    @media (max-width: 768px) {
-      .hero-title { font-size: 2rem; }
-      .stat-grid { grid-template-columns: 1fr 1fr; }
-      .reports-grid { grid-template-columns: 1fr; }
-      .btn-row { flex-direction: column; }
+    @media (max-width: 900px) {
+      .report-strip-card {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .layout-panel-body {
+        grid-template-columns: 1fr;
+      }
+      .hero-title { font-size: 2.1rem; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Top Navigation -->
+  <!-- Sticky Navbar -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-brand">
-        <span>Plot R5-180 Portal</span>
-        <span class="nav-brand-badge">Phase 3B</span>
+        <span>Plot R5-180 Master Portal</span>
+        <span class="nav-badge-phase">Phase 3B</span>
       </div>
       <div class="nav-links">
-        <span class="nav-badge-rera">MahaRERA: P52100080947</span>
-        <a href="#reports">Reports Hub</a>
-        <a href="#statutory">Statutory Filings</a>
-        <a href="#maps">Maps</a>
-        <a href="https://github.com/wagh-nikhil/misty-greens-r5-due-diligence" target="_blank" style="color:#5eead4;">GitHub Repo ↗</a>
+        <span class="nav-rera">MahaRERA: P52100080947</span>
+        <a href="#summary" class="active">Executive Summary</a>
+        <a href="#layout">Project Layout</a>
+        <a href="#reports">Due Diligence &amp; Reports</a>
+        <a href="#statutory">Statutory Documents</a>
+        <a href="https://github.com/wagh-nikhil/misty-greens-r5-due-diligence" target="_blank" style="color:#5eead4;">GitHub Repository ↗</a>
       </div>
     </div>
   </nav>
@@ -639,343 +789,548 @@
   <!-- Hero Header -->
   <header class="hero">
     <div class="hero-container">
-      <div class="hero-tag">
-        <span>📍 Bhugaon, Taluka Mulshi, Pune</span>
-        <span>•</span>
-        <span>PMRDA Sanctioned</span>
+      <div class="hero-pill-row">
+        <span class="hero-pill">📍 Bhugaon, Taluka Mulshi, Pune</span>
+        <span class="hero-pill">🏛️ PMRDA Sanctioned</span>
+        <span class="hero-pill gold">West Facing Plot</span>
       </div>
-      <h1 class="hero-title">Kaleidoscope Misty Greens Phase 3B<br>Due Diligence &amp; Construction Hub</h1>
+      <h1 class="hero-title">Kaleidoscope Misty Greens Phase 3B<br>Due Diligence &amp; Construction Master Portal</h1>
       <p class="hero-subtitle">
-        Official investigative due diligence repository, 30-year legal title audit, 100% Vastu G+1 architectural CAD blueprint, PMRDA setback compliance analysis, terrain engineering, and 5-year valuation forecast for <strong>Plot R5-180</strong>.
+        Comprehensive independent real estate audit for <strong>Plot R5-180</strong>: 30-year title verification, 100% Vastu G+1 architectural construction plans, PMRDA setback analysis, 7/12 land records investigation, and 5-year valuation growth modeling.
       </p>
 
-      <!-- Key Stats Grid -->
-      <div class="stat-grid">
-        <div class="stat-card">
-          <div class="stat-label">Plot Area</div>
-          <div class="stat-value">179.54 m²</div>
-          <div class="stat-sub">1,932.55 Sq.Ft. (10.0m × 17.95m)</div>
+      <!-- Key Metrics Strip -->
+      <div class="stat-strip">
+        <div class="stat-box">
+          <div class="stat-box-label">Plot Dimensions</div>
+          <div class="stat-box-value">179.54 m²</div>
+          <div class="stat-box-sub">1,932.55 Sq.Ft. (10.0m × 17.95m)</div>
         </div>
-        <div class="stat-card">
-          <div class="stat-label">G+1 Permissible Built-Up</div>
-          <div class="stat-value">~2,000 sq.ft.</div>
-          <div class="stat-sub">Plinth: 88.93 m² (49.5% Coverage)</div>
+        <div class="stat-box">
+          <div class="stat-box-label">G+1 Permissible Built-Up</div>
+          <div class="stat-box-value">~2,000 sq.ft.</div>
+          <div class="stat-box-sub">Plinth: 88.93 m² (49.5% Coverage)</div>
         </div>
-        <div class="stat-card">
-          <div class="stat-label">PMRDA Setbacks</div>
-          <div class="stat-value">100% UDCPR</div>
-          <div class="stat-sub">3m Front, 2.25m Rear, 1.5m Sides</div>
+        <div class="stat-box">
+          <div class="stat-box-label">PMRDA Setbacks</div>
+          <div class="stat-box-value">100% UDCPR</div>
+          <div class="stat-box-sub">Front 3.0m | Rear 2.25m | Sides 1.5m</div>
         </div>
-        <div class="stat-card">
-          <div class="stat-label">Total Outlay</div>
-          <div class="stat-value">₹ 1.74 Cr</div>
-          <div class="stat-sub">Plot: ₹ 1.15 Cr | Build: ₹ 59.1L</div>
+        <div class="stat-box">
+          <div class="stat-box-label">Vastu Shastra</div>
+          <div class="stat-box-value">100% Compliant</div>
+          <div class="stat-box-sub">West Pushpadanta | Agni Kitchen</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-box-label">Combined Investment</div>
+          <div class="stat-box-value">₹ 1.74 Cr</div>
+          <div class="stat-box-sub">Land ₹ 1.15 Cr + Build ₹ 59.1L</div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Content -->
+  <!-- Main Content Body -->
   <main class="main-content">
 
-    <!-- 5 Core Reports Section -->
-    <div class="section-header" id="reports">
-      <div>
-        <h2 class="section-title">Core Due Diligence &amp; Construction Reports</h2>
-        <p class="section-desc">Each report includes an interactive online web viewer and a downloadable vector PDF report.</p>
-      </div>
-    </div>
+    <!-- 1. Executive Major Points Summary Dashboard -->
+    <section class="summary-dashboard" id="summary">
+      <div class="summary-top-tag">Executive Audit Synthesis</div>
+      <h2 class="summary-heading">Major Points &amp; Strategic Findings at a Glance</h2>
+      
+      <div class="summary-grid">
 
-    <div class="reports-grid">
-
-      <!-- Report 1: Construction Plan -->
-      <article class="report-card">
-        <div class="card-top-bar"></div>
-        <span class="card-featured-badge">New Blueprint</span>
-        <div class="card-icon">🏗️</div>
-        <h3 class="card-title">Bungalow Construction Plan &amp; Cost Estimation</h3>
-        <p class="card-summary">Complete G+1 2D CAD architectural blueprints, 100% Vastu Shastra 32-pada grid, PMRDA setback analysis, basalt excavation, and construction water tanker logistics.</p>
-        <div class="card-highlights">
-          <ul>
-            <li><strong>Architecture:</strong> G+1 3BHK with double-height living &amp; valley deck</li>
-            <li><strong>Vastu:</strong> West Pushpadanta entry, Agni kitchen, Nairutya master</li>
-            <li><strong>Water Logistics:</strong> 50 tankers (2.5L Liters) @ ₹ 1.05L total</li>
-            <li><strong>Turnkey Cost:</strong> ₹ 59.10 Lakh (~₹ 2,955/sq.ft.)</li>
-          </ul>
-        </div>
-        <div class="card-actions">
-          <div class="btn-row">
-            <a href="Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.html" class="btn btn-primary" target="_blank">
-              Read Online ↗
-            </a>
-            <a href="Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf" download class="btn btn-secondary">
-              📥 PDF (460 KB)
-            </a>
+        <!-- Point 1: Due Diligence & Title -->
+        <div class="summary-item blue">
+          <div class="summary-item-title">
+            <span>📜 Legal &amp; Title Verification</span>
+            <span class="summary-item-badge badge-clear">Clear Flow</span>
           </div>
-          <button class="btn btn-preview" onclick="openPreview('Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf', 'Bungalow Construction Plan & Cost Estimation')">
-            👁️ Instant PDF Preview
+          <p class="summary-item-desc">
+            Unbroken 30-year ancestral title chain traced to Smt. Malanbai Marne &amp; legal heirs (2016). PMRDA Commencement Certificate issued 24-Jan-2025. Zero bank mortgages or registered charges. Recommend amending 3 one-sided agreement clauses.
+          </p>
+        </div>
+
+        <!-- Point 2: Construction & Vastu -->
+        <div class="summary-item">
+          <div class="summary-item-title">
+            <span>🏗️ G+1 Construction &amp; Vastu</span>
+            <span class="summary-item-badge badge-pass">100% Vastu</span>
+          </div>
+          <p class="summary-item-desc">
+            2,000 sq.ft. G+1 architectural plan with double-height living atrium. 100% compliant with PMRDA UDCPR Table 6D setbacks and Vedic 32-pada grid (Pushpadanta West entry, Agni kitchen, Nairutya master suite, Ishanya puja).
+          </p>
+        </div>
+
+        <!-- Point 3: Land Records & Inventory -->
+        <div class="summary-item green">
+          <div class="summary-item-title">
+            <span>🌾 7/12 Records &amp; Inventory</span>
+            <span class="summary-item-badge badge-pass">NA Converted</span>
+          </div>
+          <p class="summary-item-desc">
+            Verified on Mahabhulekh across Bhugaon Survey 154/6 (0.83H) and 154/8 (0.42H). Phase 3B comprises 18 total plotted units (11 registered booked, 7 available). Adjoining: R5-179 (Phase 3A, 180 m²) &amp; R5-181 (Phase 3B, 180.55 m²).
+          </p>
+        </div>
+
+        <!-- Point 4: Valuation & Appreciation -->
+        <div class="summary-item amber">
+          <div class="summary-item-title">
+            <span>📈 Valuation &amp; Growth Potential</span>
+            <span class="summary-item-badge badge-note">Fair Value</span>
+          </div>
+          <p class="summary-item-desc">
+            Developer quote of ₹ 1.15 Cr inclusive of taxes (₹ 5,950/sq.ft.) is fair for gated township infra. Proximity to Paud Road 6-laning (1.6 km) and Bhugaon Bypass (1.4 km) drives projected 5-year capital appreciation to ₹ 1.85 Cr – ₹ 2.10 Cr.
+          </p>
+        </div>
+
+        <!-- Point 5: Water Logistics & Terrain -->
+        <div class="summary-item purple">
+          <div class="summary-item-title">
+            <span>💧 Water Logistics &amp; Terrain</span>
+            <span class="summary-item-badge badge-note">50 Tankers</span>
+          </div>
+          <p class="summary-item-desc">
+            Foundation requires mechanical pneumatic breaker in Deccan basalt rock. Natural 1.2m eastward slope managed via 1.2m UCR stone retaining wall with weep holes. Construction water model budgeted at 50 tankers (2.5L L) @ ₹ 1.05 Lakh.
+          </p>
+        </div>
+
+        <!-- Point 6: Total Turnkey Financial Model -->
+        <div class="summary-item blue">
+          <div class="summary-item-title">
+            <span>💼 Combined Investment Model</span>
+            <span class="summary-item-badge badge-pass">₹ 1.74 Cr Total</span>
+          </div>
+          <p class="summary-item-desc">
+            Total project budget: Land Package ₹ 1.15 Cr + Turnkey Villa Build ₹ 59.10 Lakh + Maintenance ₹ 74,400 (prepaid) = <strong>₹ 1,74,84,400 (~₹ 1.75 Cr)</strong> for a completed, move-in-ready luxury hillside villa.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. Project Layout Showcase Section -->
+    <section class="section-wrapper" id="layout">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">🗺️ Project Layout &amp; Cadastral Spatial Survey</h2>
+          <p class="section-sub">Interactive visual exploration of Plot R5-180 within Sector R5 and the broader Kaleidoscope Misty Greens township.</p>
+        </div>
+      </div>
+
+      <div class="layout-showcase-card">
+        <!-- Layout Tabs -->
+        <div class="layout-nav-tabs">
+          <button class="layout-tab active" onclick="switchLayoutTab('tab-plot')">
+            <span>🎯 Plot R5-180 Sector R5 Layout</span>
+          </button>
+          <button class="layout-tab" onclick="switchLayoutTab('tab-master')">
+            <span>🏘️ Township Master Layout Plan</span>
+          </button>
+          <button class="layout-tab" onclick="switchLayoutTab('tab-pmrda')">
+            <span>🏛️ PMRDA Sanctioned Layout Sheet</span>
+          </button>
+          <button class="layout-tab" onclick="switchLayoutTab('tab-roads')">
+            <span>🛣️ Road Connectivity &amp; Bypass Map</span>
           </button>
         </div>
-      </article>
 
-      <!-- Report 2: Comprehensive Legal Due Diligence -->
-      <article class="report-card">
-        <div class="card-top-bar" style="background: linear-gradient(90deg, #1d4ed8, #2563eb);"></div>
-        <div class="card-icon" style="background: #dbeafe; color: #1d4ed8;">📜</div>
-        <h3 class="card-title">Comprehensive Legal &amp; Title Due Diligence</h3>
-        <p class="card-summary">Exhaustive 30-year ownership trace, registered sale deeds audit, PMRDA commencement certificate validation, and non-negotiable agreement clause analysis.</p>
-        <div class="card-highlights">
-          <ul>
-            <li><strong>Title Flow:</strong> Clear pedigree from Smt. Malanbai Marne &amp; heirs (2016)</li>
-            <li><strong>Sanctions:</strong> PMRDA NA order &amp; RERA valid till Dec 2029</li>
-            <li><strong>Encumbrances:</strong> Zero registered mortgages / bank charges</li>
-            <li><strong>Risk Verdict:</strong> Low-to-Moderate (Agreement tweaks recommended)</li>
-          </ul>
+        <!-- Tab 1: Plot R5-180 Detailed Zoom -->
+        <div class="layout-display-panel active" id="tab-plot">
+          <div class="layout-panel-body">
+            <div class="layout-img-container" onclick="openImageModal('crop_r5_180_zoom.png', 'Plot R5-180 Sector R5 Layout')">
+              <img src="crop_r5_180_zoom.png" alt="Plot R5-180 Zoom Layout">
+              <div class="layout-overlay-hint">🔍 Click to Enlarge</div>
+            </div>
+            <div class="layout-panel-info">
+              <h3 class="layout-info-title">Sector R5 Detailed Cadastral Layout</h3>
+              <p class="layout-info-desc">
+                Plot R5-180 occupies an optimal orientation within Sector R5, featuring direct 9.0-meter internal township road frontage on the West and backing directly onto Amenity Space EA 3 on the East.
+              </p>
+              <ul class="callout-list">
+                <li>
+                  <span class="callout-bullet">W</span>
+                  <div><strong>West Frontage:</strong> 10.00 meters fronting 9.0-meter wide internal paved township road.</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">E</span>
+                  <div><strong>East Rear:</strong> Backs onto PMRDA Amenity EA 3 and descending green valley buffer.</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">N</span>
+                  <div><strong>North Boundary:</strong> Adjoins Plot R5-179 (Phase 3A, 180.00 sq.m.).</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">S</span>
+                  <div><strong>South Boundary:</strong> Adjoins Plot R5-181 (Phase 3B, 180.55 sq.m.).</div>
+                </li>
+              </ul>
+              <div style="margin-top:auto; display:flex; gap:10px;">
+                <a href="crop_r5_180_zoom.png" target="_blank" class="btn btn-secondary" style="flex:1;">Open Full Resolution ↗</a>
+                <button class="btn btn-primary" onclick="openPreview('Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf', 'Bungalow Construction Plan')">View 2D CAD Plan 🏗️</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="card-actions">
-          <div class="btn-row">
+
+        <!-- Tab 2: Master Layout -->
+        <div class="layout-display-panel" id="tab-master">
+          <div class="layout-panel-body">
+            <div class="layout-img-container" onclick="openImageModal('Plots_For_Sale_page_1.png', 'Township Master Layout Plan')">
+              <img src="Plots_For_Sale_page_1.png" alt="Misty Greens Township Master Layout">
+              <div class="layout-overlay-hint">🔍 Click to Enlarge</div>
+            </div>
+            <div class="layout-panel-info">
+              <h3 class="layout-info-title">Township Master Layout &amp; Phasing</h3>
+              <p class="layout-info-desc">
+                The master layout illustrates the tiered spatial distribution of sectors across the undulating Bhugaon hillside, integrating clubhouse zones, internal spine avenues, and reserved open green areas.
+              </p>
+              <ul class="callout-list">
+                <li>
+                  <span class="callout-bullet">1</span>
+                  <div><strong>Phase 3B Demarcation:</strong> Sector R5 plots positioned on the eastern scenic ridge.</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">2</span>
+                  <div><strong>Township Infrastructure:</strong> Underground stormwater conduits, street lighting, and security checkpoints.</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">3</span>
+                  <div><strong>Amenity EA 3:</strong> Guaranteed open space directly behind Plot R5-180 ensuring sunrise light and valley breeze.</div>
+                </li>
+              </ul>
+              <div style="margin-top:auto;">
+                <a href="Plots_For_Sale_page_1.png" target="_blank" class="btn btn-secondary" style="width:100%;">View High-Resolution Township Layout ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: PMRDA Sanctioned Layout Sheet -->
+        <div class="layout-display-panel" id="tab-pmrda">
+          <div class="layout-panel-body">
+            <div class="layout-img-container" onclick="openImageModal('master_layout_plan_sheet_1.png', 'PMRDA Sanctioned Architectural Layout Sheet')">
+              <img src="master_layout_plan_sheet_1_web.jpg" alt="PMRDA Sanctioned Master Layout Sheet 1">
+              <div class="layout-overlay-hint">🔍 Click to Enlarge</div>
+            </div>
+            <div class="layout-panel-info">
+              <h3 class="layout-info-title">PMRDA Official Sanction Drawing (Sheet 1)</h3>
+              <p class="layout-info-desc">
+                High-resolution architectural blueprint bearing official PMRDA Town Planning sanction stamps, sanction numbers, setback schedules, and surveyor coordinate grids.
+              </p>
+              <ul class="callout-list">
+                <li>
+                  <span class="callout-bullet">✓</span>
+                  <div><strong>Statutory Sanction:</strong> Order PMRDA/CC/2024-25/551 dated 24-Jan-2025.</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">✓</span>
+                  <div><strong>Plot Demarcation:</strong> Exact plot boundaries and survey area calculations for Phase 3B.</div>
+                </li>
+              </ul>
+              <div style="margin-top:auto; display:flex; gap:10px;">
+                <a href="Layout_Plan_Sheet1.pdf" target="_blank" class="btn btn-secondary" style="flex:1;">Download Sanction PDF (1.06 MB)</a>
+                <a href="master_layout_plan_sheet_1.png" target="_blank" class="btn btn-primary" style="flex:1;">Open Full Blueprint PNG ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 4: Road Connectivity & Bypass -->
+        <div class="layout-display-panel" id="tab-roads">
+          <div class="layout-panel-body">
+            <div class="layout-img-container" onclick="openImageModal('misty_greens_connectivity_map.png', 'Road Connectivity & Bhugaon Bypass Map')">
+              <img src="misty_greens_connectivity_map.png" alt="Misty Greens Connectivity Map">
+              <div class="layout-overlay-hint">🔍 Click to Enlarge</div>
+            </div>
+            <div class="layout-panel-info">
+              <h3 class="layout-info-title">Infrastructure Proximity &amp; Bypass Mapping</h3>
+              <p class="layout-info-desc">
+                Detailed GIS distance mapping from Plot R5-180 to the ongoing Paud Road 6-Laning (SH-60) and the strategic Bhugaon Bypass alignment.
+              </p>
+              <ul class="callout-list">
+                <li>
+                  <span class="callout-bullet">🚗</span>
+                  <div><strong>Paud Road (SH-60):</strong> 1.6 km via internal approach road (under 5 minutes drive).</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">🛣️</span>
+                  <div><strong>Bhugaon Bypass:</strong> 1.4 km connecting directly towards Chandani Chowk and Kothrud.</div>
+                </li>
+                <li>
+                  <span class="callout-bullet">🚇</span>
+                  <div><strong>Vanaz Metro Station:</strong> 7.8 km (approx. 14–18 minutes travel time).</div>
+                </li>
+              </ul>
+              <div style="margin-top:auto;">
+                <a href="misty_greens_connectivity_map.png" target="_blank" class="btn btn-secondary" style="width:100%;">Open Full-Res GIS Map ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Core Due Diligence & Construction Reports (DUE DILIGENCE FIRST!) -->
+    <section class="section-wrapper" id="reports">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">📑 Comprehensive Investigative Reports Hub</h2>
+          <p class="section-sub">Navigate the 5 independent investigative reports. Legal Due Diligence is presented first, followed by Construction, Land Records, Valuation, and Terrain surveys.</p>
+        </div>
+      </div>
+
+      <div class="reports-stack">
+
+        <!-- REPORT 1: LEGAL & TITLE DUE DILIGENCE (FIRST!) -->
+        <article class="report-strip-card featured">
+          <span class="featured-label">Priority 1 • Legal Baseline</span>
+          <div class="report-icon-box icon-blue">📜</div>
+          <div class="report-main-info">
+            <div class="report-badge-order">Report 1 • 30-Year Title &amp; Statutory Audit</div>
+            <h3 class="report-heading">Comprehensive Legal &amp; Title Due Diligence Report</h3>
+            <p class="report-desc">
+              Exhaustive 30-year ownership trace, registered sale deed analysis, PMRDA commencement certificate validation, and non-negotiable agreement clause audit. Concludes with a Low-to-Moderate risk rating and 3 critical investor protective covenants.
+            </p>
+            <div class="report-pills">
+              <span class="report-pill-item">✓ 30-Yr Pedigree (Malanbai Marne)</span>
+              <span class="report-pill-item">✓ Zero Encumbrances</span>
+              <span class="report-pill-item">✓ PMRDA NA Order 24-Jan-2025</span>
+              <span class="report-pill-item">✓ 22-Pg Deviation Audit</span>
+            </div>
+          </div>
+          <div class="report-cta-col">
             <a href="Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.html" class="btn btn-primary" target="_blank">
-              Read Online ↗
+              Read Online (HTML) ↗
             </a>
             <a href="Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf" download class="btn btn-secondary">
-              📥 PDF (1.94 MB)
+              📥 Attached PDF (1.94 MB)
             </a>
+            <button class="btn btn-ghost" onclick="openPreview('Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf', 'Comprehensive Legal Due Diligence')">
+              👁️ In-Browser Preview
+            </button>
           </div>
-          <button class="btn btn-preview" onclick="openPreview('Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf', 'Comprehensive Legal & Title Due Diligence')">
-            👁️ Instant PDF Preview
-          </button>
-        </div>
-      </article>
+        </article>
 
-      <!-- Report 3: 7/12 & Inventory Analysis -->
-      <article class="report-card">
-        <div class="card-top-bar" style="background: linear-gradient(90deg, #16a34a, #15803d);"></div>
-        <div class="card-icon" style="background: #dcfce7; color: #15803d;">🌾</div>
-        <h3 class="card-title">7/12 (Satbara) &amp; Available Plots Inventory</h3>
-        <p class="card-summary">Digital land records investigation across Bhugaon Survey 154/6 and 154/8, cross-matching MahaRERA unsold inventory against developer marketing disclosures.</p>
-        <div class="card-highlights">
-          <ul>
-            <li><strong>Cadastral Survey:</strong> Survey 154/6 (0.83H) &amp; Survey 154/8 (0.42H)</li>
-            <li><strong>MahaRERA Audit:</strong> 18 total plots in Phase 3B (11 booked, 7 available)</li>
-            <li><strong>Adjacent Plots:</strong> Plot 179 (Phase 3A, 180 m²), Plot 181 (Phase 3B, 180.55 m²)</li>
-            <li><strong>Mutation Status:</strong> Integrated NA non-agricultural conversion confirmed</li>
-          </ul>
-        </div>
-        <div class="card-actions">
-          <div class="btn-row">
+        <!-- REPORT 2: BUNGALOW CONSTRUCTION PLAN & COST ESTIMATION -->
+        <article class="report-strip-card">
+          <div class="report-icon-box icon-teal">🏗️</div>
+          <div class="report-main-info">
+            <div class="report-badge-order">Report 2 • Architecture &amp; Cost Modeling</div>
+            <h3 class="report-heading">Bungalow Construction Plan, Vastu Blueprint &amp; Cost Estimation</h3>
+            <p class="report-desc">
+              Complete G+1 2D CAD architectural blueprints, 100% Vastu Shastra 32-pada cardinal alignment for West-facing plot, PMRDA setback analysis (UDCPR Table 6D), pneumatic basalt rock excavation, hillside retaining wall, and 50 water tankers demand.
+            </p>
+            <div class="report-pills">
+              <span class="report-pill-item">✓ G+1 3BHK Villa (~2,000 sq.ft.)</span>
+              <span class="report-pill-item">✓ 100% Vastu (Pushpadanta W3/W4)</span>
+              <span class="report-pill-item">✓ 50 Water Tankers (2.5L L)</span>
+              <span class="report-pill-item">✓ Turnkey BOQ ₹ 59.10 Lakh</span>
+            </div>
+          </div>
+          <div class="report-cta-col">
+            <a href="Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.html" class="btn btn-primary" target="_blank">
+              Read Online (HTML) ↗
+            </a>
+            <a href="Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf" download class="btn btn-secondary">
+              📥 Attached PDF (460 KB)
+            </a>
+            <button class="btn btn-ghost" onclick="openPreview('Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf', 'Bungalow Construction Plan & Cost Estimation')">
+              👁️ In-Browser Preview
+            </button>
+          </div>
+        </article>
+
+        <!-- REPORT 3: 7/12 EXTRACTS & INVENTORY REPORT -->
+        <article class="report-strip-card">
+          <div class="report-icon-box icon-green">🌾</div>
+          <div class="report-main-info">
+            <div class="report-badge-order">Report 3 • Cadastral Records &amp; Plots Audit</div>
+            <h3 class="report-heading">7/12 (Satbara) Land Records &amp; Phase 3B Available Plots Inventory</h3>
+            <p class="report-desc">
+              Mahabhulekh digital revenue record investigation across Bhugaon Survey 154/6 (0.83H) &amp; 154/8 (0.42H). Complete 18-plot Phase 3B inventory cross-audit matching developer marketing claims against RERA quarterly bookings (11 booked, 7 available).
+            </p>
+            <div class="report-pills">
+              <span class="report-pill-item">✓ Survey 154/6 &amp; 154/8</span>
+              <span class="report-pill-item">✓ 18 Plots Analyzed</span>
+              <span class="report-pill-item">✓ Plot 179 &amp; 181 Comparison</span>
+              <span class="report-pill-item">✓ Integrated NA Mutation</span>
+            </div>
+          </div>
+          <div class="report-cta-col">
             <a href="Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.html" class="btn btn-primary" target="_blank">
-              Read Online ↗
+              Read Online (HTML) ↗
             </a>
             <a href="Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.pdf" download class="btn btn-secondary">
-              📥 PDF (316 KB)
+              📥 Attached PDF (316 KB)
             </a>
+            <button class="btn btn-ghost" onclick="openPreview('Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.pdf', '7/12 Extracts & Available Plots Inventory')">
+              👁️ In-Browser Preview
+            </button>
           </div>
-          <button class="btn btn-preview" onclick="openPreview('Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.pdf', '7/12 Extracts & Available Plots Inventory')">
-            👁️ Instant PDF Preview
-          </button>
-        </div>
-      </article>
+        </article>
 
-      <!-- Report 4: Valuation & Growth Forecast -->
-      <article class="report-card">
-        <div class="card-top-bar" style="background: linear-gradient(90deg, #d97706, #b45309);"></div>
-        <div class="card-icon" style="background: #fef3c7; color: #b45309;">📈</div>
-        <h3 class="card-title">Valuation, Pricing &amp; 5-Year Growth Forecast</h3>
-        <p class="card-summary">Fair price assessment of developer's ₹ 1.15 Cr quote, society &amp; township maintenance review, infrastructure proximity, and projected capital appreciation.</p>
-        <div class="card-highlights">
-          <ul>
-            <li><strong>Price Realization:</strong> ₹ 5,950/sq.ft. all-inclusive (Fair market premium)</li>
-            <li><strong>Infrastructure Boost:</strong> 1.6 km to Paud Rd 6-Laning &amp; 1.4 km to Bhugaon Bypass</li>
-            <li><strong>Maintenance Outlay:</strong> ₹ 1/sq.ft. Society (1 yr) + ₹ 2/sq.ft. Township (2 yrs)</li>
-            <li><strong>5-Year Projection:</strong> Projected capital valuation of ₹ 1.85 Cr – ₹ 2.10 Cr</li>
-          </ul>
-        </div>
-        <div class="card-actions">
-          <div class="btn-row">
+        <!-- REPORT 4: VALUATION & GROWTH FORECAST -->
+        <article class="report-strip-card">
+          <div class="report-icon-box icon-amber">📈</div>
+          <div class="report-main-info">
+            <div class="report-badge-order">Report 4 • Market Pricing &amp; 5-Year Forecast</div>
+            <h3 class="report-heading">Valuation, Pricing &amp; 5-Year Growth Forecast Report</h3>
+            <p class="report-desc">
+              Fair price benchmarking of developer quote ₹ 1.15 Cr (₹ 5,950/sq.ft. all-inclusive). Society (₹ 1/sq.ft. 1 yr) and township (₹ 2/sq.ft. 2 yrs) maintenance review, infrastructure proximity (Paud Rd 6-laning &amp; Bhugaon Bypass), and 5-year capital appreciation projection.
+            </p>
+            <div class="report-pills">
+              <span class="report-pill-item">✓ ₹ 1.15 Cr Quote Fair Value</span>
+              <span class="report-pill-item">✓ 1.6 km to Paud Rd 6-Laning</span>
+              <span class="report-pill-item">✓ 1.4 km to Bhugaon Bypass</span>
+              <span class="report-pill-item">✓ 5-Yr Valuation: ₹ 1.85 Cr – ₹ 2.10 Cr</span>
+            </div>
+          </div>
+          <div class="report-cta-col">
             <a href="Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.html" class="btn btn-primary" target="_blank">
-              Read Online ↗
+              Read Online (HTML) ↗
             </a>
             <a href="Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.pdf" download class="btn btn-secondary">
-              📥 PDF (2.20 MB)
+              📥 Attached PDF (2.20 MB)
             </a>
+            <button class="btn btn-ghost" onclick="openPreview('Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.pdf', 'Valuation, Pricing & 5-Year Growth Forecast')">
+              👁️ In-Browser Preview
+            </button>
           </div>
-          <button class="btn btn-preview" onclick="openPreview('Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.pdf', 'Valuation, Pricing & 5-Year Growth Forecast')">
-            👁️ Instant PDF Preview
-          </button>
-        </div>
-      </article>
+        </article>
 
-      <!-- Report 5: Geographical & Wildlife Survey -->
-      <article class="report-card">
-        <div class="card-top-bar" style="background: linear-gradient(90deg, #059669, #047857);"></div>
-        <div class="card-icon" style="background: #d1fae5; color: #047857;">🌄</div>
-        <h3 class="card-title">Geographical Terrain, Landslide &amp; Wildlife Survey</h3>
-        <p class="card-summary">Hill slope stability analysis, GSI historical landslide registry verification, forest boundary setback assessment, and wildlife interface mitigation protocols.</p>
-        <div class="card-highlights">
-          <ul>
-            <li><strong>Landslide Risk:</strong> Zero historical landslides; bedrock is stable Deccan basalt</li>
-            <li><strong>Slope Gradient:</strong> Moderate 6°–8° manageable eastward descent</li>
-            <li><strong>Wildlife Exposure:</strong> 1.8 km from notified reserve forest; nil mega-carnivore threat</li>
-            <li><strong>Engineering:</strong> 1.2m UCR stone masonry retaining wall with weep holes</li>
-          </ul>
-        </div>
-        <div class="card-actions">
-          <div class="btn-row">
+        <!-- REPORT 5: GEOGRAPHICAL & WILDLIFE SURVEY -->
+        <article class="report-strip-card">
+          <div class="report-icon-box icon-emerald">🌄</div>
+          <div class="report-main-info">
+            <div class="report-badge-order">Report 5 • Terrain Stability &amp; Eco Survey</div>
+            <h3 class="report-heading">Geographical Terrain, Landslide &amp; Wildlife Survey Report</h3>
+            <p class="report-desc">
+              Geological survey of Deccan basalt bedrock, GSI historical landslide registry verification, hill slope stability assessment (moderate 6°–8° descent), 1.8 km notified reserve forest buffer audit, and wild animal interface mitigation protocols.
+            </p>
+            <div class="report-pills">
+              <span class="report-pill-item">✓ Zero Historical Landslides</span>
+              <span class="report-pill-item">✓ Deccan Basalt Bedrock</span>
+              <span class="report-pill-item">✓ 1.8 km to Notified Forest</span>
+              <span class="report-pill-item">✓ Nil Apex Carnivore Threat</span>
+            </div>
+          </div>
+          <div class="report-cta-col">
             <a href="Misty_Greens_R5_180_Geographical_Terrain_Wildlife_Report.html" class="btn btn-primary" target="_blank">
-              Read Online ↗
+              Read Online (HTML) ↗
             </a>
             <a href="Misty_Greens_R5_180_Geographical_Terrain_Wildlife_Report.pdf" download class="btn btn-secondary">
-              📥 PDF (616 KB)
+              📥 Attached PDF (616 KB)
             </a>
+            <button class="btn btn-ghost" onclick="openPreview('Misty_Greens_R5_180_Geographical_Terrain_Wildlife_Report.pdf', 'Geographical Terrain & Wildlife Survey')">
+              👁️ In-Browser Preview
+            </button>
           </div>
-          <button class="btn btn-preview" onclick="openPreview('Misty_Greens_R5_180_Geographical_Terrain_Wildlife_Report.pdf', 'Geographical Terrain, Landslide & Wildlife Survey')">
-            👁️ Instant PDF Preview
-          </button>
-        </div>
-      </article>
+        </article>
 
-    </div>
-
-    <!-- Official Statutory Documents Section -->
-    <div class="section-header" id="statutory">
-      <div>
-        <h2 class="section-title">Official Government &amp; RERA Statutory Documents</h2>
-        <p class="section-desc">Downloadable primary legal sources, government sanctions, and registered deeds.</p>
       </div>
-    </div>
+    </section>
 
-    <div class="statutory-card">
-      <table class="docs-table">
-        <thead>
-          <tr>
-            <th>Document Title</th>
-            <th>Issuing Authority / Source</th>
-            <th>Type</th>
-            <th>File Format</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>PMRDA Commencement Certificate &amp; NA Sanction Order</strong></td>
-            <td>PMRDA / Govt. of Maharashtra (24-Jan-2025)</td>
-            <td><span class="doc-type-badge badge-pmrda">Order</span></td>
-            <td>PDF (618 KB)</td>
-            <td><a href="07_PMRDA_Commencement_Certificate_NA_Order_24Jan2025.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>Official 30-Year Title Search Report</strong></td>
-            <td>Adv. Legal Counsel / MahaRERA Filing</td>
-            <td><span class="doc-type-badge badge-legal">Title</span></td>
-            <td>PDF (1.12 MB)</td>
-            <td><a href="Title_Report.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>7/12 Extract — Survey 154 Hissa 6 (Bhugaon)</strong></td>
-            <td>Maharashtra Revenue Dept (Bhulekh)</td>
-            <td><span class="doc-type-badge badge-revenue">Satbara</span></td>
-            <td>PNG Image (300 KB)</td>
-            <td><a href="7_12_Extract_Survey_154_6_Bhugaon.png" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">View Image</a></td>
-          </tr>
-          <tr>
-            <td><strong>7/12 Extract — Survey 154 Hissa 8 (Bhugaon)</strong></td>
-            <td>Maharashtra Revenue Dept (Bhulekh)</td>
-            <td><span class="doc-type-badge badge-revenue">Satbara</span></td>
-            <td>PNG Image (257 KB)</td>
-            <td><a href="7_12_Extract_Survey_154_8_Bhugaon.png" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">View Image</a></td>
-          </tr>
-          <tr>
-            <td><strong>Model Agreement for Sale (Full 75 Pages)</strong></td>
-            <td>MahaRERA Registered Project Filing</td>
-            <td><span class="doc-type-badge badge-rera">Contract</span></td>
-            <td>PDF (1.22 MB)</td>
-            <td><a href="06_Model_Agreement_for_Sale_Full_75_Pages.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>Agreement for Sale Deviation Report (22 Pages)</strong></td>
-            <td>Legal Audit of One-Sided Clauses</td>
-            <td><span class="doc-type-badge badge-legal">Audit</span></td>
-            <td>PDF (299 KB)</td>
-            <td><a href="05_Deviation_Report_Agreement_for_Sale_22_Pages.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>Phase 3B Approved Layout Plan (Sheet 1)</strong></td>
-            <td>PMRDA Approved Architectural Master Plan</td>
-            <td><span class="doc-type-badge badge-pmrda">Layout</span></td>
-            <td>PDF (1.06 MB)</td>
-            <td><a href="Layout_Plan_Sheet1.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>Phase 3B Approved Layout Plan (Sheet 2)</strong></td>
-            <td>PMRDA Approved Architectural Master Plan</td>
-            <td><span class="doc-type-badge badge-pmrda">Layout</span></td>
-            <td>PDF (780 KB)</td>
-            <td><a href="Layout_Plan_Sheet2.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>Registered Sale Deed 12361/2016 (Part 1)</strong></td>
-            <td>Haveli Sub-Registrar Office, Pune</td>
-            <td><span class="doc-type-badge badge-legal">Deed</span></td>
-            <td>PDF (2.03 MB)</td>
-            <td><a href="10_Sale_Deed_12361_2016_Part1.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-          <tr>
-            <td><strong>Registered Sale Deed 12362/2016 (Part 1)</strong></td>
-            <td>Haveli Sub-Registrar Office, Pune</td>
-            <td><span class="doc-type-badge badge-legal">Deed</span></td>
-            <td>PDF (2.93 MB)</td>
-            <td><a href="12_Sale_Deed_12362_2016_Part1.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- Visual Maps Showcase -->
-    <div class="section-header" id="maps">
-      <div>
-        <h2 class="section-title">Visual Maps &amp; Land Surveys</h2>
-        <p class="section-desc">High-resolution spatial analysis, connectivity mapping, and cadastral extracts.</p>
-      </div>
-    </div>
-
-    <div class="showcase-grid">
-      <div class="showcase-card">
-        <div class="showcase-img-wrap">
-          <img src="misty_greens_connectivity_map.png" alt="Misty Greens Connectivity Map">
-        </div>
-        <div class="showcase-body">
-          <h4 class="showcase-title">Road Connectivity &amp; Bypass Map</h4>
-          <p class="showcase-desc">Mapped distances from Plot R5-180 to Paud Road 6-Laning (SH-60) and the ongoing Bhugaon Bypass alignment.</p>
-          <a href="misty_greens_connectivity_map.png" target="_blank" class="btn btn-secondary" style="width:100%;">View Full-Res Map ↗</a>
+    <!-- 4. Official Government & RERA Statutory Archive -->
+    <section class="section-wrapper" id="statutory">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">🏛️ Official Government &amp; Statutory Document Archive</h2>
+          <p class="section-sub">Downloadable official primary legal instruments, government sanctions, and registered land deeds.</p>
         </div>
       </div>
 
-      <div class="showcase-card">
-        <div class="showcase-img-wrap">
-          <img src="7_12_Extract_Survey_154_6_Bhugaon.png" alt="7/12 Extract Survey 154/6">
-        </div>
-        <div class="showcase-body">
-          <h4 class="showcase-title">Official 7/12 Extract — Survey 154/6</h4>
-          <p class="showcase-desc">Digital land record showing NA Non-Agricultural conversion and mutation history for Bhugaon Survey 154 Hissa 6.</p>
-          <a href="7_12_Extract_Survey_154_6_Bhugaon.png" target="_blank" class="btn btn-secondary" style="width:100%;">View Full-Res Extract ↗</a>
-        </div>
+      <div class="docs-container">
+        <table class="docs-table">
+          <thead>
+            <tr>
+              <th>Document Title</th>
+              <th>Issuing Authority / Agency</th>
+              <th>Category</th>
+              <th>File Size</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>PMRDA Commencement Certificate &amp; NA Sanction Order</strong></td>
+              <td>PMRDA / Govt. of Maharashtra (24-Jan-2025)</td>
+              <td><span class="doc-badge pmrda">Order</span></td>
+              <td>PDF (618 KB)</td>
+              <td><a href="07_PMRDA_Commencement_Certificate_NA_Order_24Jan2025.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>Official 30-Year Title Search Report</strong></td>
+              <td>Adv. Legal Counsel / MahaRERA Filing</td>
+              <td><span class="doc-badge title">Title</span></td>
+              <td>PDF (1.12 MB)</td>
+              <td><a href="Title_Report.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>7/12 Extract — Survey 154 Hissa 6 (Bhugaon)</strong></td>
+              <td>Maharashtra Revenue Dept (Mahabhulekh)</td>
+              <td><span class="doc-badge satbara">Satbara</span></td>
+              <td>PNG (300 KB)</td>
+              <td><a href="7_12_Extract_Survey_154_6_Bhugaon.png" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">View Image</a></td>
+            </tr>
+            <tr>
+              <td><strong>7/12 Extract — Survey 154 Hissa 8 (Bhugaon)</strong></td>
+              <td>Maharashtra Revenue Dept (Mahabhulekh)</td>
+              <td><span class="doc-badge satbara">Satbara</span></td>
+              <td>PNG (257 KB)</td>
+              <td><a href="7_12_Extract_Survey_154_8_Bhugaon.png" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">View Image</a></td>
+            </tr>
+            <tr>
+              <td><strong>Model Agreement for Sale (Full 75 Pages)</strong></td>
+              <td>MahaRERA Registered Project Filing</td>
+              <td><span class="doc-badge rera">Contract</span></td>
+              <td>PDF (1.22 MB)</td>
+              <td><a href="06_Model_Agreement_for_Sale_Full_75_Pages.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>Agreement for Sale Deviation Report (22 Pages)</strong></td>
+              <td>Legal Audit of One-Sided Clauses</td>
+              <td><span class="doc-badge title">Audit</span></td>
+              <td>PDF (299 KB)</td>
+              <td><a href="05_Deviation_Report_Agreement_for_Sale_22_Pages.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>Phase 3B Approved Layout Plan (Sheet 1)</strong></td>
+              <td>PMRDA Approved Architectural Master Plan</td>
+              <td><span class="doc-badge pmrda">Layout</span></td>
+              <td>PDF (1.06 MB)</td>
+              <td><a href="Layout_Plan_Sheet1.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>Phase 3B Approved Layout Plan (Sheet 2)</strong></td>
+              <td>PMRDA Approved Architectural Master Plan</td>
+              <td><span class="doc-badge pmrda">Layout</span></td>
+              <td>PDF (780 KB)</td>
+              <td><a href="Layout_Plan_Sheet2.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>Registered Sale Deed 12361/2016 (Part 1)</strong></td>
+              <td>Haveli Sub-Registrar Office, Pune</td>
+              <td><span class="doc-badge deed">Deed</span></td>
+              <td>PDF (2.03 MB)</td>
+              <td><a href="10_Sale_Deed_12361_2016_Part1.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+            <tr>
+              <td><strong>Registered Sale Deed 12362/2016 (Part 1)</strong></td>
+              <td>Haveli Sub-Registrar Office, Pune</td>
+              <td><span class="doc-badge deed">Deed</span></td>
+              <td>PDF (2.93 MB)</td>
+              <td><a href="12_Sale_Deed_12362_2016_Part1.pdf" target="_blank" class="btn btn-secondary" style="padding:4px 10px; font-size:0.78rem;">Download PDF</a></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-
-      <div class="showcase-card">
-        <div class="showcase-img-wrap">
-          <img src="7_12_Extract_Survey_154_8_Bhugaon.png" alt="7/12 Extract Survey 154/8">
-        </div>
-        <div class="showcase-body">
-          <h4 class="showcase-title">Official 7/12 Extract — Survey 154/8</h4>
-          <p class="showcase-desc">Official revenue extract reflecting ownership holdings and encumbrance-free status for Bhugaon Survey 154 Hissa 8.</p>
-          <a href="7_12_Extract_Survey_154_8_Bhugaon.png" target="_blank" class="btn btn-secondary" style="width:100%;">View Full-Res Extract ↗</a>
-        </div>
-      </div>
-    </div>
+    </section>
 
   </main>
 
-  <!-- Interactive Document Preview Modal -->
+  <!-- Interactive Modal Viewer (PDF & Image Lightbox) -->
   <div class="modal-overlay" id="previewModal">
     <div class="modal-content">
       <div class="modal-header">
@@ -985,8 +1340,9 @@
           <button class="modal-btn" onclick="closePreview()">✕ Close</button>
         </div>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" id="modalBody">
         <iframe id="previewFrame" src="about:blank"></iframe>
+        <img id="previewImage" src="" alt="Preview" style="display:none;">
       </div>
     </div>
   </div>
@@ -998,20 +1354,21 @@
         <div>
           <div class="footer-brand">Plot R5-180 Due Diligence &amp; Construction Repository</div>
           <p class="footer-desc">
-            An independent, data-driven engineering and legal audit compiled for Plot R5-180 in Kaleidoscope Misty Greens Phase 3B, Bhugaon, Mulshi, Pune (MahaRERA: P52100080947).
+            Independent, data-driven engineering and legal audit compiled for Plot R5-180 in Kaleidoscope Misty Greens Phase 3B, Bhugaon, Mulshi, Pune. Registered under MahaRERA: <strong>P52100080947</strong>.
           </p>
         </div>
         <div>
-          <div style="font-weight:600; color:white; margin-bottom:8px;">Quick Navigation</div>
-          <p><a href="#reports" style="color:#94a3b8;">• Core Reports Hub</a></p>
+          <div style="font-weight:700; color:white; margin-bottom:8px;">Quick Navigation</div>
+          <p><a href="#summary" style="color:#94a3b8;">• Executive Findings</a></p>
+          <p><a href="#layout" style="color:#94a3b8;">• Project Layout Plan</a></p>
+          <p><a href="#reports" style="color:#94a3b8;">• Legal Due Diligence</a></p>
           <p><a href="#statutory" style="color:#94a3b8;">• Statutory Documents</a></p>
-          <p><a href="#maps" style="color:#94a3b8;">• Spatial Maps</a></p>
-          <p><a href="https://maps.app.goo.gl/jPdqBem1m51jPDnu8" target="_blank" style="color:#5eead4;">• View on Google Maps ↗</a></p>
+          <p><a href="https://maps.app.goo.gl/jPdqBem1m51jPDnu8" target="_blank" style="color:#5eead4;">• View Coordinates on Google Maps ↗</a></p>
         </div>
       </div>
       <div class="footer-bottom">
-        <div>© 2026 Nikhil Wagh. All rights reserved. Hosted with GitHub Pages.</div>
-        <div>MahaRERA Registered Project: <strong>P52100080947</strong></div>
+        <div>© 2026 Nikhil Wagh. All rights reserved. Deployed with GitHub Pages.</div>
+        <div>MahaRERA Project: <strong>P52100080947</strong> | PMRDA Sanction: <strong>24-Jan-2025</strong></div>
       </div>
     </div>
   </footer>
@@ -1019,10 +1376,37 @@
   <script>
     let currentPreviewUrl = '';
 
+    function switchLayoutTab(tabId) {
+      document.querySelectorAll('.layout-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.layout-display-panel').forEach(p => p.classList.remove('active'));
+      
+      const activeBtn = event.currentTarget;
+      if (activeBtn) activeBtn.classList.add('active');
+      
+      const targetPanel = document.getElementById(tabId);
+      if (targetPanel) targetPanel.classList.add('active');
+    }
+
     function openPreview(url, title) {
       currentPreviewUrl = url;
       document.getElementById('modalTitle').innerText = title || 'Document Preview';
-      document.getElementById('previewFrame').src = url;
+      const frame = document.getElementById('previewFrame');
+      const img = document.getElementById('previewImage');
+      img.style.display = 'none';
+      frame.style.display = 'block';
+      frame.src = url;
+      document.getElementById('previewModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function openImageModal(imgUrl, title) {
+      currentPreviewUrl = imgUrl;
+      document.getElementById('modalTitle').innerText = title || 'Image Viewer';
+      const frame = document.getElementById('previewFrame');
+      const img = document.getElementById('previewImage');
+      frame.style.display = 'none';
+      img.style.display = 'block';
+      img.src = imgUrl;
       document.getElementById('previewModal').classList.add('active');
       document.body.style.overflow = 'hidden';
     }
@@ -1030,6 +1414,7 @@
     function closePreview() {
       document.getElementById('previewModal').classList.remove('active');
       document.getElementById('previewFrame').src = 'about:blank';
+      document.getElementById('previewImage').src = '';
       document.body.style.overflow = 'auto';
     }
 
@@ -1039,7 +1424,6 @@
       }
     }
 
-    // Close on Escape or click outside
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') closePreview();
     });
