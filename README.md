@@ -13,6 +13,8 @@
 Visit the live portal on GitHub Pages:  
 👉 **[https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/)**
 
+📦 **[Download Complete Due Diligence Package (.ZIP - 7.58 MB)](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Complete_Due_Diligence_Package.zip)**
+
 ---
 
 ## 📊 Key Property Metrics
