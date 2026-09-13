@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Due Diligence & Legal Audit: Kaleidoscope-R4-MISTY GREENS (MahaRERA: P52100049327)</title>
+<style>
+  :root {
+    --primary: #1e3a8a;
+    --primary-light: #3b82f6;
+    --secondary: #0f766e;
+    --dark: #0f172a;
+    --light-bg: #f8fafc;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+    --danger: #b91c1c;
+    --danger-bg: #fef2f2;
+    --danger-border: #fecaca;
+    --warning: #b45309;
+    --warning-bg: #fffbeb;
+    --warning-border: #fde68a;
+    --success: #15803d;
+    --success-bg: #f0fdf4;
+    --success-border: #bbf7d0;
+    --info: #0369a1;
+    --info-bg: #f0f9ff;
+    --info-border: #bae6fd;
+    --text: #334155;
+    --text-muted: #64748b;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background-color: var(--light-bg);
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 24px;
+  }
+
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border);
+  }
+
+  /* Header banner */
+  .header {
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .header-left h1 {
+    font-size: 26px;
+    color: var(--primary);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+  }
+
+  .header-left .subtitle {
+    font-size: 15px;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .header-badges {
+    text-align: right;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .badge-rera {
+    background: #e0e7ff;
+    color: #3730a3;
+    border: 1px solid #c7d2fe;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .badge-status {
+    background: var(--success-bg);
+    color: var(--success);
+    border: 1px solid var(--success-border);
+  }
+
+  /* Section Styling */
+  h2 {
+    font-size: 18px;
+    color: var(--primary);
+    border-left: 4px solid var(--primary);
+    padding-left: 12px;
+    margin: 32px 0 16px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h3 {
+    font-size: 15px;
+    color: var(--dark);
+    margin: 18px 0 10px 0;
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: 12px;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 22px 0;
+    font-size: 13px;
+  }
+
+  th, td {
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background-color: #f1f5f9;
+    color: var(--dark);
+    font-weight: 700;
+  }
+
+  tr:nth-child(even) td {
+    background-color: #f8fafc;
+  }
+
+  /* Scorecard / Cards */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 20px 0;
+  }
+
+  .card {
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #fff;
+  }
+
+  .card-danger {
+    background: var(--danger-bg);
+    border-color: var(--danger-border);
+  }
+
+  .card-warning {
+    background: var(--warning-bg);
+    border-color: var(--warning-border);
+  }
+
+  .card-success {
+    background: var(--success-bg);
+    border-color: var(--success-border);
+  }
+
+  .card-info {
+    background: var(--info-bg);
+    border-color: var(--info-border);
+  }
+
+  .card-title {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .card-danger .card-title { color: var(--danger); }
+  .card-warning .card-title { color: var(--warning); }
+  .card-success .card-title { color: var(--success); }
+  .card-info .card-title { color: var(--info); }
+
+  /* Pros & Cons Lists */
+  .pro-list, .con-list {
+    list-style: none;
+  }
+
+  .pro-list li, .con-list li {
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+
+  .pro-list li {
+    background: #f0fdf4;
+    border-left: 4px solid var(--success);
+    color: #14532d;
+  }
+
+  .con-list li {
+    background: #fef2f2;
+    border-left: 4px solid var(--danger);
+    color: #7f1d1d;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 6px;
+  }
+
+  .tag-danger { background: #fee2e2; color: #991b1b; }
+  .tag-warning { background: #fef3c7; color: #92400e; }
+  .tag-success { background: #dcfce7; color: #166534; }
+  .tag-info { background: #e0f2fe; color: #075985; }
+
+  /* Callouts */
+  .callout {
+    padding: 16px;
+    border-radius: 8px;
+    margin: 18px 0;
+    border-left: 4px solid;
+    font-size: 13.5px;
+  }
+
+  .callout-danger {
+    background: #fff5f5;
+    border-color: var(--danger);
+    color: #7f1d1d;
+  }
+
+  .callout-warning {
+    background: #fffbeb;
+    border-color: var(--warning);
+    color: #78350f;
+  }
+
+  .callout-info {
+    background: #f0f9ff;
+    border-color: var(--info);
+    color: #0c4a6e;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media print {
+    body {
+      background: #fff;
+      padding: 0;
+      font-size: 12px;
+    }
+    .container {
+      box-shadow: none;
+      border: none;
+      padding: 0;
+      max-width: 100%;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    h2 {
+      page-break-after: avoid;
+    }
+    table, .card, .callout, .grid-2 {
+      page-break-inside: avoid;
+    }
+    @page {
+      size: A4;
+      margin: 12mm 15mm 15mm 15mm;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <h1>PROJECT DUE DILIGENCE & LEGAL AUDIT</h1>
+      <div class="subtitle">Comprehensive Independent Verification & Risk Evaluation Report</div>
+      <div style="margin-top: 6px; font-size: 13px; font-weight: 600; color: #475569;">
+        Project: <strong>Kaleidoscope-R4-MISTY GREENS</strong> (Misty Greens Villa Plots)
+      </div>
+    </div>
+    <div class="header-badges">
+      <div class="badge badge-rera">MahaRERA: P52100049327</div><br>
+      <div class="badge badge-status">Registered & Active</div><br>
+      <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Audit Date: September 2026</div>
+    </div>
+  </div>
+
+  <!-- Executive Scorecard -->
+  <div class="grid-3">
+    <div class="card card-warning">
+      <div class="card-title">⚖️ Legal & Title Risk</div>
+      <p style="font-size: 20px; font-weight: 800; color: var(--warning); margin: 4px 0;">MODERATE - HIGH</p>
+      <div style="font-size: 12px; color: #78350f;">4 court litigations on land + pending counter-claim & probate dispute.</div>
+    </div>
+    <div class="card card-danger">
+      <div class="card-title">🏦 Financial Encumbrance</div>
+      <p style="font-size: 20px; font-weight: 800; color: var(--danger); margin: 4px 0;">ACTIVE MORTGAGE</p>
+      <div style="font-size: 12px; color: #7f1d1d;">Township land mortgaged to Vistra ITCL (India) Ltd. Requires unit-specific NOC.</div>
+    </div>
+    <div class="card card-danger">
+      <div class="card-title">📑 RERA Compliance</div>
+      <p style="font-size: 20px; font-weight: 800; color: var(--danger); margin: 4px 0;">CRITICAL DEFICIENCY</p>
+      <div style="font-size: 12px; color: #7f1d1d;">Agreement for Sale missing on MahaRERA; Layout Blueprint uploaded instead.</div>
+    </div>
+  </div>
+
+  <!-- Section 1: Project At A Glance -->
+  <h2>1. Project Profile & Master Data</h2>
+  <table>
+    <tr>
+      <th style="width: 25%;">Project Name</th>
+      <td style="width: 25%;">Kaleidoscope-R4-MISTY GREENS</td>
+      <th style="width: 25%;">Marketing Name</th>
+      <td style="width: 25%;">Misty Greens (Paranjape Schemes)</td>
+    </tr>
+    <tr>
+      <th>MahaRERA Reg. No.</th>
+      <td><strong>P52100049327</strong></td>
+      <th>Registration Date</th>
+      <td>07/02/2023</td>
+    </tr>
+    <tr>
+      <th>Proposed Completion</th>
+      <td><strong>01/01/2028</strong></td>
+      <th>Project Status</th>
+      <td>Certificate Signed / Ongoing</td>
+    </tr>
+    <tr>
+      <th>Promoter Company</th>
+      <td>Kaleidoscope Developers Pvt. Ltd. (KDPL)</td>
+      <th>Key Director</th>
+      <td>Shrikant Purushottam Paranjape</td>
+    </tr>
+    <tr>
+      <th>Project Location</th>
+      <td>Sector R4, Village Bhugaon, Tal. Mulshi, Dist. Pune - 412115</td>
+      <th>Township Scheme</th>
+      <td>Kaleidoscope Integrated Township (Forest Trails)</td>
+    </tr>
+    <tr>
+      <th>Total Project Area</th>
+      <td><strong>76,868.70 sq. meters</strong> (~19 Acres)</td>
+      <th>Total Township Area</th>
+      <td>4,19,034.00 sq. meters (140+ Acres)</td>
+    </tr>
+    <tr>
+      <th>Total Units</th>
+      <td><strong>180 Bungalow Plots</strong> (NA Plotted)</td>
+      <th>Units Sold</th>
+      <td><strong>138 Plots Sold</strong> (~77% Booked)</td>
+    </tr>
+    <tr>
+      <th>Sanctioning Authority</th>
+      <td>PMRDA (Commencement Cert: BMU/CR No. 864/21-22)</td>
+      <th>Lead Lender</th>
+      <td>Vistra ITCL (India) Limited (Mortgagee)</td>
+    </tr>
+  </table>
+
+  <!-- Section 2: Complete Pros and Cons Analysis -->
+  <div class="page-break"></div>
+  <h2>2. Comprehensive Pros & Cons Analysis</h2>
+  
+  <div class="grid-2">
+    <div>
+      <h3 style="color: var(--success); display: flex; align-items: center; gap: 6px;">
+        <span>✅</span> Project Strengths (PROS)
+      </h3>
+      <ul class="pro-list">
+        <li>
+          <strong>Established Brand & Execution Track Record:</strong> Backed by Paranjape Schemes (Construction) Ltd, a 35+ year legacy developer in Pune with delivered township developments (e.g., Forest Trails, Blue Ridge).
+        </li>
+        <li>
+          <strong>Formal Town Planning & PMRDA Approvals:</strong> Approved under the Maharashtra Special Township Policy with statutory layout clearances from Pune Metropolitan Region Development Authority (PMRDA).
+        </li>
+        <li>
+          <strong>Scenic Location & High Capital Appreciation Potential:</strong> Situated in Bhugaon along Paud Road, near Chandani Chowk and Kothrud, offering natural hill-slope landscapes with easy connectivity to Hinjewadi IT Park and Pune West.
+        </li>
+        <li>
+          <strong>Gated Infrastructure & Integrated Township:</strong> Access to township facilities including planned arterial roads, power substations, underground sewage lines, and water treatment infrastructure.
+        </li>
+        <li>
+          <strong>High Sales Velocity & Committed Buyer Base:</strong> 138 out of 180 plots (~77%) have already been sold, demonstrating market demand and active buyer investment.
+        </li>
+        <li>
+          <strong>No Prohibitory or Stop-Work Orders:</strong> As of audit date, no injunction or stay order has been granted by any court restraining construction or development activity.
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 style="color: var(--danger); display: flex; align-items: center; gap: 6px;">
+        <span>⚠️</span> Critical Red Flags & Risks (CONS)
+      </h3>
+      <ul class="con-list">
+        <li>
+          <span class="tag tag-danger">Critical</span> <strong>Statutory Agreement Missing on MahaRERA:</strong> The promoter uploaded a duplicate layout blueprint instead of the mandatory Model Agreement for Sale (Type 10), preventing pre-booking legal transparency.
+        </li>
+        <li>
+          <span class="tag tag-danger">High</span> <strong>Active Title Litigations on Land (SCS 256/2013):</strong> Original ancestral land owners (Shedge family) filed a suit challenging earlier sale deeds and asserting title via a disputed Will.
+        </li>
+        <li>
+          <span class="tag tag-danger">High</span> <strong>Substantive Pending Counter-Claim (RCS 1324/2007):</strong> Despite the original plaintiff withdrawing her suit, co-defendants have filed a subsisting counter-claim under Order VIII Rule 6A CPC.
+        </li>
+        <li>
+          <span class="tag tag-warning">Medium</span> <strong>Large Institutional Mortgage (Vistra ITCL):</strong> The land carries an active registered financial mortgage. Failure to secure an unconditional, plot-specific release will cloud title.
+        </li>
+        <li>
+          <span class="tag tag-warning">Medium</span> <strong>Township Common Facility Retention Risk:</strong> Shared amenities (clubhouses, commercial zones) are governed under the master township umbrella and may not be conveyed to the R4 society.
+        </li>
+        <li>
+          <span class="tag tag-warning">Medium</span> <strong>Extreme Disclaimers in Legal Title Report:</strong> The certifying advocate explicitly stated he only examined photocopies, did not verify original deeds or signatures, and conducted no site survey.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 3: Deep Dive into Litigations -->
+  <div class="page-break"></div>
+  <h2>3. Complete Litigation & Court Case Audit</h2>
+  <p>The promoter declared 4 active court litigations directly in the project RERA registration. Below is the granular analysis of each suit from court records and the title clearance dossier:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 14%;">Case Number</th>
+        <th style="width: 16%;">Court & Jurisdiction</th>
+        <th style="width: 20%;">Parties Involved</th>
+        <th style="width: 35%;">Subject Matter & Relief Sought</th>
+        <th style="width: 15%;">Injunction / Risk</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Special Civil Suit 256/2013</strong></td>
+        <td>Civil Judge Senior Division (CJSD), Pune</td>
+        <td><strong>Plaintiffs:</strong> Hiraman Parvati Shedge & Ors.<br><strong>Defendants:</strong> Sarang Kale, KDPL & Ors.</td>
+        <td>Challenged registered Sale Deeds dated <strong>04/10/2007</strong> and <strong>14/10/2009</strong>. Plaintiffs claim declaration of ownership and allege Defendant No. 18 holds title via an unprobated Will of Late Phulabai Shedge. Promoter states settlement negotiations are ongoing.</td>
+        <td><span class="tag tag-success">No Stay</span><br><span class="tag tag-danger">High Title Risk</span></td>
+      </tr>
+      <tr>
+        <td><strong>Civil Misc. App. (CMA) 1263/2013</strong></td>
+        <td>Civil Court / District Court, Pune</td>
+        <td><strong>Applicant:</strong> Avinash Vasant Shedge<br><strong>Opponents:</strong> Hiraman Shedge & Ors.</td>
+        <td>Testamentary petition for grant of <strong>Probate of the Will of Late Smt. Phulabai Shedge</strong>. Interlinked with SCS 256/2013; determines lawful devolution of ancestral title in Bhugaon revenue survey numbers.</td>
+        <td><span class="tag tag-success">No Stay</span><br><span class="tag tag-warning">Med Title Risk</span></td>
+      </tr>
+      <tr>
+        <td><strong>Regular Civil Suit 1324/2007</strong></td>
+        <td>Civil Court Junior Division (CJJD), Pune</td>
+        <td><strong>Plaintiff:</strong> Anusayabai Mokashi<br><strong>Defendants:</strong> Shedge family & Kale/KDPL</td>
+        <td>Suit for declaration & injunction. Plaintiff's share was purchased by developer and she filed withdrawal at Exh. 18 (17/03/2009). <strong>However, Co-defendants 1(A)(a)-(e), 1(b), 1(c) filed an active Counter-Claim</strong> contesting title that remains pending.</td>
+        <td><span class="tag tag-success">No Stay</span><br><span class="tag tag-danger">Active Counter-Claim</span></td>
+      </tr>
+      <tr>
+        <td><strong>Regular Civil Suit 6801/2012</strong></td>
+        <td>CJSD, Pune</td>
+        <td><strong>Plaintiffs:</strong> Shaila V. Murkute & Ors.<br><strong>Defendants:</strong> Ramesh Shedge, Sarang Kale</td>
+        <td>Partition suit praying that sales deeds among defendants be declared non-binding. Title report notes this pertains to <strong>Survey No. 97/16</strong> of the township, not within the Sector R4 project boundaries.</td>
+        <td><span class="tag tag-success">No Stay</span><br><span class="tag tag-info">Low (Off-Site)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Special Summary Suit 707/2022</strong></td>
+        <td>CJSD, Pune</td>
+        <td><strong>Plaintiff:</strong> Vishwas Vijay Bhise<br><strong>Defendants:</strong> KDPL & Ors.</td>
+        <td>Summary recovery suit for monetary claim. Relates to township survey numbers 135/3, 200, 215/2, 216/1 (outside Sector R4 boundaries).</td>
+        <td><span class="tag tag-success">No Stay</span><br><span class="tag tag-info">Low (Monetary)</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Land Survey Audit -->
+  <h3>Project Survey Land Composition (76,868.70 Sq. Mtrs)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Survey Number</th>
+        <th>Area (Sq. M.)</th>
+        <th>Share of Project</th>
+        <th>Title / Dispute Vulnerability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Survey No. 140 (Part)</strong></td>
+        <td><strong>42,958.00</strong></td>
+        <td><strong>55.88%</strong></td>
+        <td><span class="tag tag-danger">Vulnerable</span> Originates from Shedge family ancestral transactions (subject to SCS 256/2013 & RCS 1324/2007).</td>
+      </tr>
+      <tr>
+        <td><strong>Survey No. 157 (Part)</strong></td>
+        <td><strong>25,500.00</strong></td>
+        <td><strong>33.17%</strong></td>
+        <td><span class="tag tag-danger">Vulnerable</span> Major land parcel directly involved in Shedge family deeds and counter-claims.</td>
+      </tr>
+      <tr>
+        <td><strong>137/1(1+2)(P), 138/1(P), 138/2, 138/4, 138/5</strong></td>
+        <td>5,580.00</td>
+        <td>7.26%</td>
+        <td><span class="tag tag-warning">Moderate</span> Acquired via Conveyance Deeds (2016) and Mate/Shedge release deeds.</td>
+      </tr>
+      <tr>
+        <td><strong>155/6(P), 156/6(P), 156/8(P), 159(P), 197/1(P)</strong></td>
+        <td>2,830.70</td>
+        <td>3.69%</td>
+        <td><span class="tag tag-success">Low</span> Minor access and peripheral parcels.</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="callout callout-warning">
+    <strong>Key Geographic Finding:</strong> Survey Nos. 140 and 157 constitute <strong>89.05% of the total project land</strong>. If your prospective plot is located on Survey 140 or 157, you are directly exposed to the pending Shedge inheritance litigations.
+  </div>
+
+  <!-- Section 4: Encumbrances & Mortgage -->
+  <div class="page-break"></div>
+  <h2>4. Institutional Mortgage & Encumbrance Audit</h2>
+  <div class="callout callout-danger">
+    <strong>CRITICAL FINANCIAL ENCUMBRANCE:</strong> The project land carries an active, registered institutional mortgage in favor of <strong>Vistra ITCL (India) Limited</strong>.
+  </div>
+  <table>
+    <tr>
+      <th style="width: 25%;">Mortgagee / Trustee</th>
+      <td style="width: 75%;"><strong>Vistra ITCL (India) Limited</strong> (Acting as Security Trustee / Debenture Trustee)</td>
+    </tr>
+    <tr>
+      <th>Principal Indenture</th>
+      <td>Registered Deed of Mortgage No. <strong>11663/2018</strong> dated <strong>27/06/2018</strong> (Sub-Registrar Mulshi, Paud)</td>
+    </tr>
+    <tr>
+      <th>Subsequent Charges</th>
+      <td>
+        • Reg. No. <strong>911/2020</strong> (15/01/2020)<br>
+        • Reg. No. <strong>6466/2020</strong> (24/09/2020)<br>
+        • Reg. No. <strong>15406/2020</strong> (21/12/2020)<br>
+        • Reg. No. <strong>10530/2021</strong> (23/07/2021)
+      </td>
+    </tr>
+    <tr>
+      <th>Legal Consequences</th>
+      <td>Vistra ITCL holds the senior first legal charge over the entire freehold property. <strong>No individual plot can be conveyed free of encumbrance without a specific, signed NOC/Release Deed from Vistra ITCL.</strong></td>
+    </tr>
+  </table>
+
+  <!-- Section 5: Draft Agreement Loopholes & Negotiation Playbook -->
+  <h2>5. Draft Agreement for Sale: Trap Clauses & Negotiation Playbook</h2>
+  <p>Because the developer has not uploaded the statutory Proforma Agreement for Sale on MahaRERA, prospective buyers will receive the builder's private standard contract. Scrutinize and modify the following 7 critical clauses before signing:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 20%;">Clause / Area</th>
+        <th style="width: 38%;">Builder's Standard Trap / Loophole</th>
+        <th style="width: 42%;">Mandatory Non-Negotiable Correction</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Plot Area Variation</strong></td>
+        <td>Permits builder $\pm 3\%$ to $5\%$ deviation in plot boundary/area without price reduction, while charging extra if area expands.</td>
+        <td>Stipulate that any area variation beyond $\pm 1\%$ requires mutual consent and strict price recalculation at the <strong>original contracted per-sq-ft rate</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>2. Specific Litigation Indemnity</strong></td>
+        <td>Includes only generic boilerplate indemnity that does not cover past or ongoing disputes.</td>
+        <td><strong>Insert specific clause:</strong> "Promoter agrees to indemnify and hold harmless the Allottee against all losses, damages, or costs arising out of <strong>SCS 256/2013, CMA 1263/2013, and RCS 1324/2007</strong>."</td>
+      </tr>
+      <tr>
+        <td><strong>3. Mortgage Release / NOC</strong></td>
+        <td>Vaguely promises that builder will obtain lender NOC "prior to execution of final Deed of Conveyance".</td>
+        <td>Demand that an <strong>unconditional, plot-specific NOC from Vistra ITCL (India) Ltd</strong> must be annexed directly to the registered Agreement for Sale.</td>
+      </tr>
+      <tr>
+        <td><strong>4. Interest Rate Parity</strong></td>
+        <td>Imposes 18% to 24% p.a. penal interest on buyer delays, but pays nominal compensation (or none) for builder delays.</td>
+        <td>Enforce <strong>RERA Rule 18 Parity:</strong> Both parties shall be governed by the exact same rate (<strong>SBI Highest MCLR + 2%</strong>, currently ~10.85% p.a.).</td>
+      </tr>
+      <tr>
+        <td><strong>5. Cancellation & Forfeiture</strong></td>
+        <td>Forfeits 10% to 20% of the entire plot value plus administrative fees if buyer defaults or seeks exit.</td>
+        <td>Under MahaRERA Model Agreement, forfeiture is capped at a maximum of <strong>2% of the total consideration amount</strong>, with balance refunded within 45 days.</td>
+      </tr>
+      <tr>
+        <td><strong>6. Common Areas & Amenities</strong></td>
+        <td>Classifies central clubhouses, access roads, and sports arenas as "Township Assets" owned permanently by developer.</td>
+        <td>Explicitly state that internal layout roads, open spaces, and Sector R4 common facilities shall be conveyed to the <strong>Plot Owners' Society</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>7. Conveyance Deed Timeline</strong></td>
+        <td>States conveyance will be executed "only after development of the entire 140-acre integrated township is completed".</td>
+        <td>Mandate plot conveyance to the buyer <strong>simultaneously with final payment</strong>, and common areas within 3 months of CC under Section 17.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Section 6: Actionable Due Diligence Checklist -->
+  <div class="page-break"></div>
+  <h2>6. Strategic Action Plan & Buyer Checklist</h2>
+  
+  <div class="callout callout-info">
+    <strong>RECOMMENDED VERIFICATION PROTOCOL:</strong> Complete the following 5 verification steps with the promoter's legal desk prior to paying any token amount exceeding 10%:
+  </div>
+
+  <ol style="padding-left: 20px; font-size: 13.5px; line-height: 1.8;">
+    <li>
+      <strong>Identify Exact Plot Survey Number:</strong> Request the layout demarcating your specific plot number. Check whether your plot falls in <strong>Survey No. 140 or 157</strong> (subject to Shedge suits) or in <strong>Survey No. 138/4, 138/5, or 197/1</strong> (cleaner title chain).
+    </li>
+    <li>
+      <strong>Demand Lender Tripartite NOC:</strong> Require the builder to provide a draft of the <strong>No Objection Certificate (NOC) from Vistra ITCL (India) Limited</strong> issued specifically in your name and citing your exact plot number.
+    </li>
+    <li>
+      <strong>Verify Court Compromise Terms:</strong> Ask the developer's legal team for certified copies of the <strong>Order Sheets and filed Consent Terms</strong> in <em>Special Civil Suit No. 256/2013</em> and <em>Regular Civil Suit No. 1324/2007</em> before the Pune Civil Court.
+    </li>
+    <li>
+      <strong>Reject Non-Conforming Agreements:</strong> Do not sign any Agreement for Sale that deviates from the <strong>MahaRERA Model Form (Annexure A)</strong>. Remind the sales team that under Section 13(2) of RERA, inconsistent builder clauses are legally void.
+    </li>
+    <li>
+      <strong>Obtain Physical Boundary Demarcation:</strong> Since the certifying advocate did not conduct a site survey, mandate that the developer's registered surveyor physically demarcate the boundary pegs of the plot in your presence before registration.
+    </li>
+  </ol>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div><strong>Due Diligence Audit:</strong> Kaleidoscope-R4-MISTY GREENS (MahaRERA: P52100049327)</div>
+    <div>Generated for Pair-Programming & Investment Assessment | Confidential</div>
+  </div>
+</div>
+
+</body>
+</html>
