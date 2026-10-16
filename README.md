@@ -13,7 +13,7 @@
 Visit the live portal on GitHub Pages:  
 👉 **[https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/)**
 
-📦 **[Download Complete Due Diligence Package (.ZIP - 7.84 MB)](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Complete_Due_Diligence_Package.zip)**
+📦 **[Download Complete Due Diligence Package (.ZIP - 17.27 MB)](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Complete_Due_Diligence_Package.zip)**
 
 ---
 
@@ -48,9 +48,11 @@ All reports are available in both **Interactive HTML** and **Attached Vector PDF
 ### 2. [Agreement for Sale Forensic Audit & Clause-by-Clause Legal Review](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.html)
 - Line-by-line audit of the 75-page registered Agreement for Sale & 22-page Deviation Report.
 - 10 critical catches uncovered: Vistra ITCL bank mortgage, 2030 delayed amenities, paid clubhouse status, resale lock-in fees.
-- Maintenance deep-dive: ₹ 5,800/month combined Society & Township (TMA) structure.
+- **STP Location Analysis & Annotated Map:** U 9 (168.48 m²) positioned ~234m North-West (safe 4.5× environmental buffer).
+- **Amenities Architecture:** 4-tier matrix (Sector R5 direct vs. R3/R4 shared vs. TMA macro vs. Paid/Civic).
+- **Maintenance Framework:** Exact rates (₹ 2.04/ft² TMC + ₹ 1.02/ft² Society = ₹ 3.07/ft²/mo = ₹ 5,925/mo).
 - Pre-signing protective covenants and negotiation checklist.
-- 📥 **PDF:** [`Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf`](Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf)
+- 📥 **PDF:** [`Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf`](Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf) *(1.71 MB, 13 Pages)*
 
 ### 3. [Bungalow Construction Plan & Cost Estimation](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.html)
 - Complete G+1 2D CAD architectural blueprints with dimensions & setbacks.
