@@ -13,7 +13,7 @@
 Visit the live portal on GitHub Pages:  
 👉 **[https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/)**
 
-📦 **[Download Complete Due Diligence Package (.ZIP - 7.58 MB)](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Complete_Due_Diligence_Package.zip)**
+📦 **[Download Complete Due Diligence Package (.ZIP - 7.84 MB)](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Complete_Due_Diligence_Package.zip)**
 
 ---
 
@@ -38,7 +38,21 @@ Visit the live portal on GitHub Pages:
 
 All reports are available in both **Interactive HTML** and **Attached Vector PDF** formats:
 
-### 1. [Bungalow Construction Plan & Cost Estimation](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.html)
+### 1. [Comprehensive Legal & Title Due Diligence](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.html)
+- 30-year ancestral ownership chain from Smt. Malanbai Marne & heirs (2016).
+- PMRDA Commencement Certificate & NA Sanction Order verification.
+- Title Search Report scrutiny; zero registered encumbrances or bank mortgages.
+- Agreement for Sale clause audit and recommended investor protective covenants.
+- 📥 **PDF:** [`Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf`](Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf)
+
+### 2. [Agreement for Sale Forensic Audit & Clause-by-Clause Legal Review](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.html)
+- Line-by-line audit of the 75-page registered Agreement for Sale & 22-page Deviation Report.
+- 10 critical catches uncovered: Vistra ITCL bank mortgage, 2030 delayed amenities, paid clubhouse status, resale lock-in fees.
+- Maintenance deep-dive: ₹ 5,800/month combined Society & Township (TMA) structure.
+- Pre-signing protective covenants and negotiation checklist.
+- 📥 **PDF:** [`Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf`](Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf)
+
+### 3. [Bungalow Construction Plan & Cost Estimation](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.html)
 - Complete G+1 2D CAD architectural blueprints with dimensions & setbacks.
 - 100% Vastu Shastra 32-pada grid alignment (West facing).
 - Basalt rock excavation & 1.2m UCR hillside stone retaining wall.
@@ -46,27 +60,20 @@ All reports are available in both **Interactive HTML** and **Attached Vector PDF
 - Itemized BOQ: ₹ 59.10 Lakh turnkey budget.
 - 📥 **PDF:** [`Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf`](Misty_Greens_R5_180_Bungalow_Construction_Plan_and_Cost_Estimate_Report.pdf)
 
-### 2. [Comprehensive Legal & Title Due Diligence](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.html)
-- 30-year ancestral ownership chain from Smt. Malanbai Marne & heirs (2016).
-- PMRDA Commencement Certificate & NA Sanction Order verification.
-- Title Search Report scrutiny; zero registered encumbrances or bank mortgages.
-- Agreement for Sale clause audit and recommended investor protective covenants.
-- 📥 **PDF:** [`Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf`](Misty_Greens_R5_180_P52100080947_Due_Diligence_Report.pdf)
-
-### 3. [7/12 (Satbara) Extracts & Phase 3B Available Plots Inventory](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.html)
+### 4. [7/12 (Satbara) Extracts & Phase 3B Available Plots Inventory](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.html)
 - Mahabhulekh revenue records verification for Bhugaon Survey 154/6 (0.83H) & 154/8 (0.42H).
 - 18-plot Phase 3B inventory cross-audit (11 booked, 7 available).
 - Comparison with adjacent Plot R5-179 (Phase 3A) and Plot R5-181 (Phase 3B).
 - 📥 **PDF:** [`Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.pdf`](Misty_Greens_R5_180_Satbara_7_12_and_Phase_3B_Inventory_Report.pdf)
 
-### 4. [Valuation, Price Analysis & 5-Year Growth Forecast](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.html)
+### 5. [Valuation, Price Analysis & 5-Year Growth Forecast](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.html)
 - Developer quote fairness analysis (₹ 5,950/sq.ft. all-inclusive).
 - Township (₹ 2/sq.ft. for 2 yrs) and Society (₹ 1/sq.ft. for 1 yr) maintenance review.
 - Proximity mapping: 1.6 km to Paud Road 6-Laning & 1.4 km to Bhugaon Bypass.
 - 5-year capital appreciation projection (₹ 1.85 Cr – ₹ 2.10 Cr).
 - 📥 **PDF:** [`Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.pdf`](Misty_Greens_R5_180_Valuation_Price_Growth_Investment_Report.pdf)
 
-### 5. [Geographical Terrain, Landslide & Wildlife Survey](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Geographical_Terrain_Wildlife_Report.html)
+### 6. [Geographical Terrain, Landslide & Wildlife Survey](https://wagh-nikhil.github.io/misty-greens-r5-due-diligence/Misty_Greens_R5_180_Geographical_Terrain_Wildlife_Report.html)
 - Geological survey: Bedrock is solid Deccan basalt trap; zero historical landslides.
 - Moderate slope (6°–8°) with natural eastward surface drainage.
 - Wildlife survey: 1.8 km buffer from reserve forest; zero apex carnivore threats.
@@ -78,6 +85,7 @@ All reports are available in both **Interactive HTML** and **Attached Vector PDF
 ## 🏛️ Official Statutory Documents Archive
 
 Direct access to official government filings, sanctions, and deeds stored in this repository:
+- **Agreement for Sale Forensic Audit (10 Pages):** [`Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf`](Misty_Greens_R5_180_Agreement_for_Sale_Expert_Review_and_Clause_Audit_Report.pdf)
 - **PMRDA Commencement Certificate & NA Order:** [`07_PMRDA_Commencement_Certificate_NA_Order_24Jan2025.pdf`](07_PMRDA_Commencement_Certificate_NA_Order_24Jan2025.pdf)
 - **30-Year Title Search Report:** [`Title_Report.pdf`](Title_Report.pdf)
 - **Model Agreement for Sale (75 Pages):** [`06_Model_Agreement_for_Sale_Full_75_Pages.pdf`](06_Model_Agreement_for_Sale_Full_75_Pages.pdf)
